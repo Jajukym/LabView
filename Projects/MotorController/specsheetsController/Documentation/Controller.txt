@@ -1,0 +1,55 @@
+Motor_Controller
+
+Setup:
+	Copy "specsheetsController" folder in the "C:\" root directory
+	From the "Volume_x.x.x.x" folder, run install.exe
+
+Connect USB cables to the PC:
+	Oscilloscope:
+		a. Turn on all channels on the oscilloscope
+	Signal generator
+	USB Scanner
+	RS232 to UART adapter
+
+----------------LAUNCH APPLICATION----------------
+
+Initialize
+01. Connect harness to sample under test at points:
+	a. Motor + Connector
+	b. Motor - Connector
+	c. Neutral Connector
+	d. Line Connector
+	e. Incline Header
+	f. Programming Header
+	g. 15V Test Point
+	h. Console Header
+	i. Incline Sense Header
+	j. Tach Sense Header
+02. Input user information.
+03. Select instrument connection ports.
+04. Scan test sample barcode.
+
+Software
+01. On the harness box, verity that the switches are set as: "SWR", "P/L", and "PRI".
+02. Verify that scope leads are plugged into the Secondary ports respectivley; 1 to 1, 2 to 2, 3 to 3, and 4 to 4.
+03. On the motor load fixture, turn on the power.
+04. Scan serial number of the sample. 
+
+Secondary
+01. On the harness box, verity that the switches are set as: "PWM", "P/L", and "PRI".
+02. Click begin to test secondary side.
+
+Incline/Primary
+01. On the harness box, verity that the switches are set as: "PWM", "INC", and "PRI".
+02. Connect scope leads to Incline ports 3 and 4 matching probe numbers.
+03. Connect scope leads to Primary prots 1 and 2 matching probe numbers.
+04. Click begin to test incline relays.
+
+Motor
+01. On the harness box, verity that the switches are set as: "PWM", "P/L", and "MOT".
+02. Connect scope leads to Motor ports 3 and 4 matching probe numbers.
+03. Set speed potentiometer to the middle position.
+04. Click begin to test motor.
+05. When prompted, set speed potentiometer to the full counter clockwise (Left) position and click OK.
+06. When prompted, set speed potentiometer to the full  clockwise (Right) position and click OK.
+07. When prompted, set speed potentiometer to the middle position and click OK.
