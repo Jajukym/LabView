@@ -1,0 +1,9 @@
+Timestamp	Event	Event Data
+2:43:03 PM 10/3/2012	Boiler Initialized	-
+2:43:04 PM 10/3/2012	Boiler Ready	-
+2:43:05 PM 10/3/2012	Start Pre-Purge	0
+2:43:07 PM 10/3/2012	Pre-Purge Complete	2
+2:43:07 PM 10/3/2012	Pilot On	True
+2:43:10 PM 10/3/2012	Pilot Proved	30
+2:43:10 PM 10/3/2012	Forced Draft Fan On	True
+2:43:11 PM 10/3/2012	Boiler Running	10

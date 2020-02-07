@@ -1,0 +1,49 @@
+Part Name	MC1618DLS		
+Part Number	386762		
+Firmware Ver	12		
+Vendor Name	Xinyi		
+Vendor Number	4679		
+			
+INPUT PRIMARY(7)			
+Input Voltage	120		
+Input Voltage Tol.	15	15	
+Input Current	0.5		
+Max Input Current	0.25		
+Allowable Power Interruption	0.001		
+			
+OUTPUT SECONDARY(14)			
+Voltage Output	9		
+Voltage Output Tol.	0.8	0.8	
+Ripple/Noise	1		
+Ripple/Noise Tol.	0	1	
+Rated Output Current	2		
+Rated Output Current Tol.	2	2.5	
+Sense Voltage	5		
+Sense Voltage Tol.	0.5	0.5	
+			
+OUTPUT PRIMARY(24)			
+Voltage Micro	5		
+Voltage Micro Tol.	0.5	1	
+Voltage FET Driver	15		
+Voltage FET Driver Tol.	0.5	5	
+			
+MOTOR CONTROLLER(30)			
+LED Frequency	5	1.5	0.5
+LED Frequency Tol.	1	1	
+HV Bus Voltage	1.414		
+HV Bus Tol.	22	22	
+Speed Pot Voltage Low(@ x% PWM)	90		
+Speed Pot Voltage Mid(@ x% PWM)	70		
+Speed Pot Voltage High(@ x% PWM)	110		
+Speed Pot Voltage Tol.	10	10	
+Ircomp	0.8		
+Current Running	4	6	
+Current Limit	18		
+			
+			
+			
+			
+			
+			
+			
+REV	0	3/20/2019	

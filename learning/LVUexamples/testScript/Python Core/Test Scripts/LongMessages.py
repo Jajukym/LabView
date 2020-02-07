@@ -1,0 +1,5 @@
+script_update("Long script: gonna wait for 30 seconds.")
+sleep(30)
+script_update("Long script: gonna wait for 50 seconds.")
+sleep(50)
+script_update("Done with the long script.")

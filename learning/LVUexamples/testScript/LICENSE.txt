@@ -1,0 +1,25 @@
+Copyright (c) 2018, Wineman Technology, Inc.
+All rights reserved.
+
+Wineman Technology, Inc. (Wineman) grants to Licensee an unrestricted, 
+nonexclusive, perpetual, worldwide and fully paid-up license to use, modify 
+and redistribute this software under the following terms:
+
+	* Use of the source code or binaries for internal purposes including 
+	commercial use is permitted.
+
+	* Use of the source code or binaries to produce goods or services for 
+	sale that directly or indirectly compete with Wineman’s testing equipment 
+	line of business without written permission specifically granted under a 
+	separate license by Wineman is prohibited. 
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL Wineman Technology, Inc. BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

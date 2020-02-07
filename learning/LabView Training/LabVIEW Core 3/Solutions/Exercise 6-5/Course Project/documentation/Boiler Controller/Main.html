@@ -1,0 +1,141 @@
+<HTML>
+<HEAD>
+<TITLE>Main.vi</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="Main.vi"></A><H2>Main.vi</H2>
+<P>The boiler controller allows a user to start and shut down a boiler.</P>
+<P></P>
+<P>Use the Reset, Start, and Light Pilot controls to sequentially start the boiler. </P>
+<P>Use the Fuel Control Valve to change the flow of fuel into the boiler. </P>
+<P>Use the Stop Boiler button to shut down the boiler. </P>
+<P>To shut down the system or in the event of an emergency, use the Emergency Stop button to close the application completely.</P>
+<P><IMG SRC="Mainp.png" ALT="Main.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Emergency Stop</B> <P>Stop the application within 100ms. </P>
+<P></P>
+<P>The boiler controller should not stop until it receives confirmation that the boiler stopped.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Reset</B> <P>Reset the boiler.</P>
+<P>Activate the Run Interlock on the boiler.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Start</B> <P>Start the primary fan for the pre-purge cycle. This fan runs for a fixed period of time.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Light Pilot</B> <P>Start the flow of gas and ignite the pilot.</P>
+<P></P>
+<P>The flame sensor on the boiler measures the level of the pilot flame. When the flame level reaches its threshold, the controller increases the fuel control valve to 10% and turns on the forced draft fan. The flow of gas to the pilot stops and the pilot turns off.</P>
+<P></P>
+<P>At this point, the boiler is running.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Stop Boiler</B> <P>Turn off the boiler and initiate a purge cycle. </P>
+<P></P>
+<P>The fuel valve closes and the flame level is reduced to zero.</P>
+<P>The primary fan turns on to start the purge cycle, which lasts for a fixed period of time.</P>
+<P></P>
+<P>At the end of this cycle, the system is back in its initial state.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cu32.png" ALT="cu32"></P>
+</TD>
+<TD>
+<B>Fuel Control Valve</B> <P>Change the amount of fuel flowing into the boiler.</P>
+<P></P>
+<P>Until the boiler is running, this value remains at 0. Once the boiler is running, the value may range from 10-75%.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>Status</B> <P>Indicates the current state of the system.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>Primary Fan</B> <P>The primary fan runs during purge cycles to clear any  combustible gasses that have accumulated in the system.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>Pilot Gas Valve</B> <P>The pilot gas valve controls the flow of fuel to the pilot flame.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>Pilot</B> <P>The pilot flame ignites the fuel provided to the boiler through the fuel control valve.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>Forced Draft Fan</B> <P>The forced draft fan ensures that sufficient airflow is provided to the combustion chamber while the boiler is running.</P>
+</TD>
+</TR>
+</Table>
+</BODY>
+</HTML>
