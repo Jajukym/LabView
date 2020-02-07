@@ -1,0 +1,212 @@
+Note: the prefix ts. indicates a queue defined in the
+TestScript_connector.py file, and referenced in the 
+TestScript_gui_and_exposed_functions.py file. Any other queue name
+with no prefix is defined in that file. 
+
+
+TestScript_connector.py Queues:
+
+    q_python_to_LabVIEW
+    q_caller_gui
+    q_script_update
+    
+
+TestScript_connector.py Parallel Loops:
+
+    python_to_LabVIEW_message_handling_loop
+        feeds q_caller_gui
+        eats  q_python_to_LabVIEW
+
+    LabVIEW_to_python_message_handling_loop
+        feeds q_caller_gui
+
+    keep_alive_loop
+        feeds q_caller_gui
+        feeds q_script_update
+
+   
+TestScript_connector.py Non-Loop Functions:
+
+    There are none that feed or eat any queues.
+
+
+TestScript_gui_and_exposed_functions.py Queues:
+
+    q_scr_cmd_engine
+    q_scr_runner
+    q_scr_id_register
+    q_gui    
+
+    
+TestScript_gui_and_exposed_functions.py Parallel Loops:
+
+    consumer_loop
+        eats and feeds ts.q_caller_gui (queue for this qsm)
+        feeds q_scr_cmd_engine
+        feeds q_scr_runner
+        feeds q_gui
+        feeds ts.q_python_to_LabVIEW
+        eats q_scr_id_register
+   
+    script_update_loop
+        eats ts.q_script_update
+        feeds q_gui
+        feeds q_scr_cmd_engine
+
+    scr_cmd_engine_loop
+        eats and feeds q_scr_cmd_engine (queue for this qsm)
+        feeds ts.q_caller_gui
+        feeds ts.q_python_to_LabVIEW
+
+    main_screen.mainloop (pass_command_to_gui)
+        eats q_gui
+
+   
+TestScript_gui_and_exposed_functions.py Non-Loop Functions:
+
+    sendMessageToLabVIEW (button function)
+        feeds ts.q_caller_gui
+
+    quitGUI (button function)
+        feeds ts.q_caller_gui
+   
+    run_script (button function)
+        feeds ts.q_caller_gui
+
+    scr_runner
+        feeds q_scr_id_register
+   
+    action
+        feeds q_scr_cmd_engine
+   
+    script_update
+        feeds ts.q_script_update
+
+    user_update
+        feeds ts.q_script_update
+        
+
+Typical Execution Flows:
+
+    script_update
+        1.  Called in a customer script. Argument: string message.
+        2.  Function defined in TestScript_gui_and_exposed_functions.py.
+        3.  Feeds string message to ts.q_script_update queue, with
+            prepended script_id.
+        4.  script_update_loop eats message (and any other messages in
+            the same queue that have piled up) and feeds to two queues:
+            a.  q_gui for the Python gui. This just goes to Python gui.
+            b.  q_scr_cmd_engine as a LVPythonConnectorMessage type.
+        5.  The scr_cmd_engine_loop eats the message as a 
+            "Command LabVIEW" state, and relays the message to the
+            ts.q_python_to_LabVIEW queue.
+        6.  Control passes to the TestScript_connector.py file, in the
+            python_to_LabVIEW_message_handling_loop.
+        7.  The python_to_LabVIEW_message_handling_loop eats the message
+            and sends it to LabVIEW on the python-to-LabVIEW socket.
+        8.  Control passes to the LabVIEW side.
+        9.  The LabVIEW Core\Private\Server.vi gets the TCP message
+            in the Python-to-LabVIEW Communicator loop
+            from Python and unpacks it into the LabVIEW data type.
+        10. The Python-to-LabVIEW Communicator loop does two things 
+            with the message:
+            a.  Appends the text " reply" to the command and sends back
+                immediately to the Python side on the same 
+                python-to-LabVIEW socket.
+            b.  Sends the packaged LabVIEW data type to the 
+                add status update message to log.vi. 
+        11. The python_to_LabVIEW_message_handling_loop on the Python 
+            side gets the reply
+            message from LabVIEW and passes it on to the q_caller_gui.
+        12. The consumer_loop in the 
+            TestScript_gui_and_exposed_functions.py file eats the reply
+            message and simply pushes it onto the q_gui queue for the
+            main_screen.mainloop to eat and display (if the Python GUI
+            is even up). That's the end-of-the-road for the reply
+            message.
+        13. Meanwhile, the add status update message to log.vi 
+            replaces the next element in the Status global variable with
+            the received message. 
+        14. The LabVIEW Core\Get Status.vi reads the Status global
+            variable and packages its messages for publication wherever
+            the containing LabVIEW code displays it. That's the 
+            end-of-the-line for the status message.
+            
+    action
+        1.  Called in a customer script. Arguments: command (string),
+            data (list), and timeout (integer). 
+        2.  Function defined in TestScript_gui_and_exposed_functions.py.
+        3.  Calls the script_update function (see above) with info
+            about what the action function is going to do.
+        4.  Pushes the command to q_scr_cmd_engine.
+        5.  The scr_cmd_engine_loop eats the message as a 
+            "Command LabVIEW" state, and relays the message to the
+            ts.q_python_to_LabVIEW queue.
+        6.  Control passes to the TestScript_connector.py file, in the
+            python_to_LabVIEW_message_handling_loop.
+        7.  The python_to_LabVIEW_message_handling_loop eats the message
+            and sends it to LabVIEW on the python-to-LabVIEW socket.
+        8.  Control passes to the LabVIEW side.
+        9.  The LabVIEW Core\Private\Server.vi gets the TCP message
+            in the Python-to-LabVIEW Communicator loop
+            from Python and unpacks it into the LabVIEW data type.
+        10. The Python-to-LabVIEW Communicator loop does two things 
+            with the message:
+            a.  Appends the text " reply" to the command and sends back
+                immediately to the Python side on the same 
+                python-to-LabVIEW socket.
+            b.  Sends the packaged LabVIEW data type to the
+                callback vi. The callback vi's sole function in life
+                is to act as the bridge between the TestScript LabVIEW
+                code and the rest of the LabVIEW code, which is either
+                the Scripting Example.vi, or some other framework. We'll
+                call it "the LabVIEW framework". 
+        11. The LabVIEW framework now has control of the message, and
+            must process the command. The LabVIEW framework should
+            send a "result" message back to Python:
+                Command = "action result"
+                Data = the results of the action
+                Script ID = the script_id that called the action, which
+                    was passed over from Python.
+            The LabVIEW framework should keep track of the Script ID,
+            and call the Send Result to Python.vi with the Result Data
+            and Script ID wired in.
+        12. The Send Result to Python.vi will enqueue the result message
+            onto the LvPy queue, which is eaten in the 
+            LabVIEW-to-python Communicator loop in the 
+            LabVIEW Core\Private\Server.vi file.
+        13. The LabVIEW-to-python Communicator loop will package the
+            message for sending to Python, and then send it on the
+            LabVIEW-to-python socket. 
+        14. The LabVIEW_to_python_message_handling_loop on the Python 
+            side will get the message and immediately send a reply 
+            message back to LabVIEW confirming receipt of the message,
+            which the LabVIEW-to-python Communicator loop on the LabVIEW
+            side does nothing with. This is the end-of-the-line for 
+            the reply message to the result message.
+        15. The LabVIEW_to_python_message_handling_loop enqueues the
+            reply-to-the-result message to the q_caller_gui queue as a
+            message of type "LabVIEW-to-python Reply", and enqueues the
+            basic result message to the q_caller_gui queue as a 
+            message of type "LabVIEW-to-python Sent".
+        16. Control now passes to the 
+            TestScript_gui_and_exposed_functions.py file.
+        17. The consumer_loop eats both messages referred to above in
+            Step 15. The Reply message just goes to the q_gui queue
+            for display in the Python GUI. The Sent message is parsed
+            out; because it has the text " result" in the command field,
+            it will be pushed onto the q_scr_cmd_engine queue. 
+        18. The scr_cmd_engine_loop recognizes the incoming message as
+            an "action result" in the state field, and appends the data
+            to the l_scr_cmd_engine_result list in global Python memory.
+        19. Meanwhile, while all this has been happening, the action
+            function called the get_script_result function, which polls
+            the l_scr_cmd_engine_result list to find a result with the
+            corresponding script_id. This call occurred immediately
+            after the action function executed Step 4 above. So the
+            get_script_result function will see the relevant result and
+            return it to the action function.
+        20. If there are no errors or timeouts, the action function
+            will return this result. It is up to the customer script
+            to decide what to do with the result.
+               

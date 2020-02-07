@@ -1,0 +1,9 @@
+Date: 	 2/18/2019 
+Time: 	 5:02 PM 
+Operator Name: 	 ID-0 
+Factory Name: 	 EQD 
+Part Name: 	 PBVR-PPI-422-48W 
+Part Hardware Number: 	 390105 
+Part Software number: 	 000000 
+Vendor Name: 	 Xinyi 
+Vendor Number: 	 4679 

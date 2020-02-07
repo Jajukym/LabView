@@ -1,0 +1,5 @@
+script_update("Short script: gonna wait for 2 seconds.")
+sleep(2)
+script_update("Short script: gonna wait for 3 seconds.")
+sleep(3)
+script_update("Done with the short script.")
