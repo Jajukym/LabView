@@ -121,7 +121,7 @@
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="focusKey_input.vi" Type="VI" URL="../../Motor_Controller/#include/focusKey_input.vi"/>
+			<Item Name="focusKey_input.vi" Type="VI" URL="../../../learning/LVUexamples/focusKey/#include/focusKey_input.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

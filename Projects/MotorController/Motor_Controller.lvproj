@@ -119,10 +119,10 @@
 				<Item Name="WDT Number of Waveform Samples SGL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples SGL.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Create Data File.vi" Type="VI" URL="../../../learning(Lee)/LVU examples/SubVIs/UI data header/Support/Create Data File.vi"/>
-			<Item Name="Format File Property.vi" Type="VI" URL="../../../learning(Lee)/LVU examples/SubVIs/UI data header/Support/Format File Property.vi"/>
-			<Item Name="Global textParse.vi" Type="VI" URL="../../../learning(Lee)/LVU examples/SubVIs/Global textParse.vi"/>
-			<Item Name="Sampled Data.vi" Type="VI" URL="../../../learning(Lee)/LVU examples/SubVIs/UI data header/Support/Sampled Data.vi"/>
+			<Item Name="Create Data File.vi" Type="VI" URL="../../../learning/LVUexamples/SubVIs/UI data header/Support/Create Data File.vi"/>
+			<Item Name="Format File Property.vi" Type="VI" URL="../../../learning/LVUexamples/SubVIs/UI data header/Support/Format File Property.vi"/>
+			<Item Name="Global textParse.vi" Type="VI" URL="../../../learning/LVUexamples/SubVIs/Global textParse.vi"/>
+			<Item Name="Sampled Data.vi" Type="VI" URL="../../../learning/LVUexamples/SubVIs/UI data header/Support/Sampled Data.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Application" Type="EXE">
