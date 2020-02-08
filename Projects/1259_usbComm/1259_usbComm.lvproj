@@ -139,15 +139,15 @@
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Close Data File and open.vi" Type="VI" URL="../../Motor_Controller/#include/Close Data File and open.vi"/>
-			<Item Name="CMD execution.vi" Type="VI" URL="../../Motor_Controller/#include/CMD execution.vi"/>
-			<Item Name="Create Data File.vi" Type="VI" URL="../../../learning(Lee)/LVU examples/SubVIs/UI data header/Support/Create Data File.vi"/>
-			<Item Name="focusKey_input.vi" Type="VI" URL="../../Motor_Controller/#include/focusKey_input.vi"/>
-			<Item Name="Format File Property.vi" Type="VI" URL="../../../learning(Lee)/LVU examples/SubVIs/UI data header/Support/Format File Property.vi"/>
-			<Item Name="Header Title.vi" Type="VI" URL="../../Motor_Controller/#include/Header Title.vi"/>
-			<Item Name="JPG_import.vi" Type="VI" URL="../../Motor_Controller/#include/JPG_import.vi"/>
-			<Item Name="Pass_Fail.vi" Type="VI" URL="../../Motor_Controller/#include/Pass_Fail.vi"/>
-			<Item Name="Serial data.vi" Type="VI" URL="../../Motor_Controller/#include/Serial data.vi"/>
+			<Item Name="Close Data File and open.vi" Type="VI" URL="../../MotorController/#include/Close Data File and open.vi"/>
+			<Item Name="CMD execution.vi" Type="VI" URL="../../MotorController/#include/CMD execution.vi"/>
+			<Item Name="Create Data File.vi" Type="VI" URL="../../../learning/LVUexamples/SubVIs/UI data header/Support/Create Data File.vi"/>
+			<Item Name="focusKey_input.vi" Type="VI" URL="../../MotorController/#include/focusKey_input.vi"/>
+			<Item Name="Format File Property.vi" Type="VI" URL="../../../learning/LVUexamples/SubVIs/UI data header/Support/Format File Property.vi"/>
+			<Item Name="Header Title.vi" Type="VI" URL="../../MotorController/#include/Header Title.vi"/>
+			<Item Name="JPG_import.vi" Type="VI" URL="../../MotorController/#include/JPG_import.vi"/>
+			<Item Name="Pass_Fail.vi" Type="VI" URL="../../MotorController/#include/Pass_Fail.vi"/>
+			<Item Name="Serial data.vi" Type="VI" URL="../../MotorController/#include/Serial data.vi"/>
 			<Item Name="xlxsOpen.vi" Type="VI" URL="../../PIP_GEN_id-1/#include/xlxsOpen.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
