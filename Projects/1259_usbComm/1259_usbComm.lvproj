@@ -13,6 +13,7 @@
 		<Item Name="#include" Type="Folder" URL="../#include">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="add photo to GlobalVariables.vi" Type="VI" URL="../../../learning/LVUexamples/testVIs/add photo to GlobalVariables.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="mainAuto.vi" Type="VI" URL="../mainAuto.vi"/>
 		<Item Name="resistanceCheck_RS485.vi" Type="VI" URL="../resistanceCheck_RS485.vi"/>
