@@ -166,7 +166,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{968905BA-8DA4-4B29-A6A4-882BFF446C23}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ConsoleTest.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/ConsoleTest.exe</Property>
@@ -431,7 +431,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{8013B786-8C60-4329-8437-696EA6B398CD}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">1259_usbComm</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.12</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.13</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18018011</Property>
 				<Property Name="MSI_arpCompany" Type="Str">ICON Health &amp; Fitness</Property>
