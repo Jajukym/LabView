@@ -15,7 +15,6 @@
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="mainAuto.vi" Type="VI" URL="../mainAuto.vi"/>
-		<Item Name="resistanceCheck_RS485.vi" Type="VI" URL="../resistanceCheck_RS485.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Add File to Zip.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Add File to Zip.vi"/>
@@ -166,7 +165,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{968905BA-8DA4-4B29-A6A4-882BFF446C23}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ConsoleTest.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/ConsoleTest.exe</Property>
@@ -175,7 +174,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{76E09EAE-D783-4B53-9354-2CD3C3BCEE6A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{11128AB0-AE2C-422B-8AF3-9ABA96E7D3E2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
@@ -431,7 +430,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{8013B786-8C60-4329-8437-696EA6B398CD}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">1259_usbComm</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.13</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.14</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18018011</Property>
 				<Property Name="MSI_arpCompany" Type="Str">ICON Health &amp; Fitness</Property>
