@@ -13,7 +13,6 @@
 		<Item Name="#include" Type="Folder" URL="../#include">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="mainAuto.vi" Type="VI" URL="../mainAuto.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -26,9 +25,7 @@
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="CLAUDIE_xlsx.lvlib" Type="Library" URL="/&lt;vilib&gt;/ATEsystem/CLAUDIE_xlsx/CLAUDIE_xlsx.lvlib"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="Close Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Close Zip File.vi"/>
-				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
 				<Item Name="Create_app_xml.vi" Type="VI" URL="/&lt;vilib&gt;/ATEsystem/CLAUDIE_xlsx/aplikace/Create_excel/Create_xmls/Create_app_xml.vi"/>
@@ -60,7 +57,6 @@
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
-				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
 				<Item Name="Font.ctl" Type="VI" URL="/&lt;vilib&gt;/ATEsystem/CLAUDIE_xlsx/aplikace/Create_excel/Gen_styles/Font.ctl"/>
@@ -88,7 +84,6 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_Unzip.lvlib" Type="Library" URL="/&lt;vilib&gt;/zip/NI_Unzip.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Parse_doc_properties.vi" Type="VI" URL="/&lt;vilib&gt;/ATEsystem/CLAUDIE_xlsx/aplikace/Read_excel/Parse_doc_properties.vi"/>
 				<Item Name="Parse_sheets.vi" Type="VI" URL="/&lt;vilib&gt;/ATEsystem/CLAUDIE_xlsx/aplikace/Read_excel/Parse_sheets.vi"/>
 				<Item Name="Parse_SS.vi" Type="VI" URL="/&lt;vilib&gt;/ATEsystem/CLAUDIE_xlsx/aplikace/Read_excel/Parse_SS.vi"/>
@@ -99,13 +94,7 @@
 				<Item Name="Process_path.vi" Type="VI" URL="/&lt;vilib&gt;/ATEsystem/CLAUDIE_xlsx/aplikace/Create_excel/Process_folders_VIs/Process_path.vi"/>
 				<Item Name="Process_shared_strings_sizes.vi" Type="VI" URL="/&lt;vilib&gt;/ATEsystem/CLAUDIE_xlsx/aplikace/Create_excel/Preprocess_Datas/Process_shared_strings_sizes.vi"/>
 				<Item Name="ProcessFolder.vi" Type="VI" URL="/&lt;vilib&gt;/ATEsystem/CLAUDIE_xlsx/aplikace/Create_excel/Process_folders_VIs/ProcessFolder.vi"/>
-				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
-				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
-				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
-				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
-				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
-				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
 				<Item Name="Read_excel.vi" Type="VI" URL="/&lt;vilib&gt;/ATEsystem/CLAUDIE_xlsx/aplikace/Read_excel.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="Reform_num_to_form_string.vi" Type="VI" URL="/&lt;vilib&gt;/ATEsystem/CLAUDIE_xlsx/aplikace/Create_excel/Formats/Reform_num_to_form_string.vi"/>
@@ -165,7 +154,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{968905BA-8DA4-4B29-A6A4-882BFF446C23}</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">19</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ConsoleTest.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/ConsoleTest.exe</Property>
@@ -174,10 +163,10 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{11128AB0-AE2C-422B-8AF3-9ABA96E7D3E2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FDDF1806-D373-47B4-A193-B9CD46B9F1E7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/#include/currentMax.vi</Property>
@@ -335,6 +324,10 @@
 				<Property Name="Source[45].itemID" Type="Ref">/My Computer/#include/wahooPIP.vi</Property>
 				<Property Name="Source[45].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[45].type" Type="Str">VI</Property>
+				<Property Name="Source[46].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[46].itemID" Type="Ref">/My Computer/#include/usbPIP.vi</Property>
+				<Property Name="Source[46].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[46].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/#include/Hex to Binary 64 bit (LV 8+).vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
@@ -355,7 +348,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/mainAuto.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">46</Property>
+				<Property Name="SourceCount" Type="Int">47</Property>
 				<Property Name="TgtF_companyName" Type="Str">ICON Health &amp; Fitness</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Set for release testing...</Property>
 				<Property Name="TgtF_internalName" Type="Str">My Application</Property>
@@ -430,7 +423,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{8013B786-8C60-4329-8437-696EA6B398CD}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">1259_usbComm</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.14</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.15</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18018011</Property>
 				<Property Name="MSI_arpCompany" Type="Str">ICON Health &amp; Fitness</Property>
