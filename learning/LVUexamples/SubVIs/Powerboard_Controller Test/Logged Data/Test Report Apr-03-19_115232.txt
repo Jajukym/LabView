@@ -1,0 +1,15 @@
+Date: 	 4/3/2019 
+Time: 	 11:52 AM 
+Operator Name: 	  
+Factory Name: 	  
+Part Name: 	 MC1618DLS 
+Part  Number: 	 3386762 
+Firmware Version: 	 12 
+Vendor Name: 	 Xinyi 
+Vendor Number: 	 4679 
+
+
+Serial Number 	FW 	ILimit 	IRcomp 	Vout 	Vout Ripple 	Vout Loaded 	Vsense 	Incline Up 	Incline Down 	Vmicro 	VFET 	HV Bus 	SP Low 	SP High 	SP Mid 	IR Comp 	Current Limit 	Foldback 	Status 	
+
+386762-01234567890	0.000000	94.000000	12.000000	FAILED
+386762-01234567890	12.000000	-30.000000	8.000000	9.400000	1.000000	9.400000	PASS	FAIL	FAIL	5.490528	15.490528	23.000000	123.000000	34.000000	765.000000	234.000000	4532.000000	543.000000	PASSED
