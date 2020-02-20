@@ -1,0 +1,14 @@
+Date: 	 4/2/2019 
+Time: 	 4:50 PM 
+Operator Name: 	 ID-0 
+Factory Name: 	 EQD 
+Part Name: 	 MC1618DLS 
+Part  Number: 	 3386762 
+Firmware Version: 	 12 
+Vendor Name: 	 Xinyi 
+Vendor Number: 	 4679 
+
+
+Serial Number 	FW 	ILimit 	IRcomp 	Vout 	Vout Ripple 	Vout Loaded 	Vsense 	Incline Up 	Incline Down 	Vmicro 	VFET 	HV Bus 	SP Low 	SP High 	SP Mid 	IR Comp 	Current Limit 	Foldback 	Status 	
+
+386762-09876543210	12.000000	-30.000000	8.000000	9.400000	9.144281	FAILED

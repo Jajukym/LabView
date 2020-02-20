@@ -1,0 +1,26 @@
+Board Name	PBVR-PPI-422-48W	
+Hardware Number	390105	
+Firmware Version	102	
+Vendor Name	Xinyi	
+Vendor Number	4679	
+		
+		
+Input Voltage Range	120	
+Input Current Range	0.5	
+Allowable Power Interuption	0.001	
+		
+		
+Voltage Output	12	
+Voltage Tolerance	0.25	0.5
+Ripple/Noise Tolerance	0	0
+Rated Output Current	12	
+Max Output Current	13	
+		
+		
+HV Bus tolerance	400	
+FET driver PWM frequency tolerance	0.025	0.025
+Speed pot voltage value @85% pwm (pot sweep min to max will produce 80 - 130V)	80	130
+Ircomp (set voltage to 95 - 105V)(load to 10A and result !< 90V)	90	110
+Current limit (set voltage to 37 - 43V)(load to 19 – 27A)	19	27
+Current limit fluxuation +/- ?	0.025	0.025
+Foldback (set voltage to 37 - 43V)(load to 19 – 27A for 30 seconds)	5	5
