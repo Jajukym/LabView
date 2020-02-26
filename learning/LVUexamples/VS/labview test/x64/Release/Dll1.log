@@ -1,8 +1,0 @@
-﻿  dllmain.cpp
-     Creating library C:\Users\bryan.lee\Documents\GitHub\hello-world\VS\Projects\labview test\x64\Release\Dll1.lib and object C:\Users\bryan.lee\Documents\GitHub\hello-world\VS\Projects\labview test\x64\Release\Dll1.exp
-  Generating code
-  0 of 2 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  Finished generating code
-  Dll1.vcxproj -> C:\Users\bryan.lee\Documents\GitHub\hello-world\VS\Projects\labview test\x64\Release\Dll1.dll
