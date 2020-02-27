@@ -37,13 +37,13 @@ Speed Pot Voltage Mid(@20% PWM)	35
 Speed Pot Voltage High(@30% PWM)	55
 Speed Pot Voltage Tol.	15	15
 Ircomp	.8
-Current Running	1	4
+Current Running	1	5
 Current Limit	18
 
-
-
-
-
-
-
-REV	0	03-20-19
+PROTOCOL(43)
+SPEED	Manual
+DISTANCE	LoResTach
+GRADE	Manual
+			
+REV0	03/20/2019	created	id:0
+REV1	02/24/2020	added protocol base	id:0

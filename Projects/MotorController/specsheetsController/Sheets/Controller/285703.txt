@@ -40,10 +40,10 @@ Ircomp	.5
 Current Running	2	5
 Current Limit	18
 
-
-
-
-
-
-
-REV	0	03-20-19
+PROTOCOL(43)
+SPEED	Manual
+DISTANCE	LoResTach
+GRADE	Manual
+			
+REV0	03/20/2019	created	id:0
+REV1	02/24/2020	added protocol base	id:0

@@ -13,6 +13,9 @@
 		<Item Name="#include" Type="Folder" URL="../#include">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="specsheetsController" Type="Folder" URL="../specsheetsController">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="mainAuto.vi" Type="VI" URL="../mainAuto.vi"/>
 		<Item Name="mainAutoExtended.vi" Type="VI" URL="../mainAutoExtended.vi"/>
 		<Item Name="read me.txt" Type="Document" URL="../read me.txt"/>
@@ -121,7 +124,6 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Create Data File.vi" Type="VI" URL="../../../learning/LVUexamples/SubVIs/UI data header/Support/Create Data File.vi"/>
-			<Item Name="Format File Property.vi" Type="VI" URL="../../../learning/LVUexamples/SubVIs/UI data header/Support/Format File Property.vi"/>
 			<Item Name="Sampled Data.vi" Type="VI" URL="../../../learning/LVUexamples/SubVIs/UI data header/Support/Sampled Data.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
