@@ -18,6 +18,7 @@
 		<Item Name="read me.txt" Type="Document" URL="../read me.txt"/>
 		<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
 		<Item Name="Untitled 2.vi" Type="VI" URL="../Untitled 2.vi"/>
+		<Item Name="Untitled 3.vi" Type="VI" URL="../Untitled 3.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="RIGOL DG4000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/RIGOL DG4000 Series/RIGOL DG4000 Series.lvlib"/>
