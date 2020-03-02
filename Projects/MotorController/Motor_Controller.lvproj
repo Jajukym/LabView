@@ -13,11 +13,16 @@
 		<Item Name="#include" Type="Folder" URL="../#include">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="specsheetsController" Type="Folder" URL="../specsheetsController">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Header data_Cnsl.vi" Type="VI" URL="../../1259_usbComm/#include/Header data_Cnsl.vi"/>
 		<Item Name="mainAuto.vi" Type="VI" URL="../mainAuto.vi"/>
 		<Item Name="mainAutoExtended.vi" Type="VI" URL="../mainAutoExtended.vi"/>
 		<Item Name="read me.txt" Type="Document" URL="../read me.txt"/>
 		<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
 		<Item Name="Untitled 2.vi" Type="VI" URL="../Untitled 2.vi"/>
+		<Item Name="User data_Cnsl.vi" Type="VI" URL="../../1259_usbComm/#include/User data_Cnsl.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="RIGOL DG4000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/RIGOL DG4000 Series/RIGOL DG4000 Series.lvlib"/>
@@ -121,6 +126,7 @@
 			</Item>
 			<Item Name="Create Data File.vi" Type="VI" URL="../../../learning/LVUexamples/SubVIs/UI data header/Support/Create Data File.vi"/>
 			<Item Name="Format File Property.vi" Type="VI" URL="../../../learning/LVUexamples/SubVIs/UI data header/Support/Format File Property.vi"/>
+			<Item Name="Global_usbComm.vi" Type="VI" URL="../../1259_usbComm/#include/Global_usbComm.vi"/>
 			<Item Name="Sampled Data.vi" Type="VI" URL="../../../learning/LVUexamples/SubVIs/UI data header/Support/Sampled Data.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
