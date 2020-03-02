@@ -37,11 +37,11 @@ Software
 	j. Incline Sense Header
 	k. Tach Sense Header(if controller part number is 359336, DO NOT CONNECT!)
 
-04. On the harness box, verity that the switches are set as: "SWR", "SWR", "P/L", and "PRI".
-05. Connect scope leads to Secondary ports 1, 2, 3, and 4 matching probe numbers.
-06. On the harness box, verify that the probe lead positions match the positions in the photo.
-07. Turn on the controller power switch.
-08. Scan test sample barcode.
+02. On the harness box, verity that the switches are set as: "SWR", "SWR", "P/L", and "PRI".
+03. Connect scope leads to Secondary ports 1, 2, 3, and 4 matching probe numbers.
+04. On the harness box, verify that the probe lead positions match the positions in the photo.
+05. Turn on the controller power switch.
+06. Scan test sample barcode.
 
 Secondary
 01. On the harness box, verify that the switches are set as: "MEA", "PWM", "P/L", and "PRI".
