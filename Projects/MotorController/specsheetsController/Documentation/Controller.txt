@@ -13,7 +13,7 @@ Connect USB cables to the PC:
 
 ----------------LAUNCH APPLICATION----------------
 
-Connection Points
+Initialize
 01. Connect harness to sample under test at points:
 	a. Motor + Connector
 	b. Motor - Connector
@@ -22,9 +22,9 @@ Connection Points
 	e. Incline Header
 	f. Programming Header
 	g. 15V Test Point
-	h. Console Header(if 12-pin header, connect 4-pin UART_Read to last 4 pins of the header)
+	h. Console Header
 	i. Incline Sense Header
-	j. Tach Sense Header(if controller part number is 359336, DO NOT CONNECT!)
+	j. Tach Sense Header
 02. Input user information.
 03. Select instrument connection ports.
 04. Scan test sample barcode.

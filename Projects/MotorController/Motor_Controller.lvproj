@@ -16,13 +16,11 @@
 		<Item Name="specsheetsController" Type="Folder" URL="../specsheetsController">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Header data_Cnsl.vi" Type="VI" URL="../../1259_usbComm/#include/Header data_Cnsl.vi"/>
 		<Item Name="mainAuto.vi" Type="VI" URL="../mainAuto.vi"/>
 		<Item Name="mainAutoExtended.vi" Type="VI" URL="../mainAutoExtended.vi"/>
 		<Item Name="read me.txt" Type="Document" URL="../read me.txt"/>
 		<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
 		<Item Name="Untitled 2.vi" Type="VI" URL="../Untitled 2.vi"/>
-		<Item Name="User data_Cnsl.vi" Type="VI" URL="../../1259_usbComm/#include/User data_Cnsl.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="RIGOL DG4000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/RIGOL DG4000 Series/RIGOL DG4000 Series.lvlib"/>
@@ -126,7 +124,6 @@
 			</Item>
 			<Item Name="Create Data File.vi" Type="VI" URL="../../../learning/LVUexamples/SubVIs/UI data header/Support/Create Data File.vi"/>
 			<Item Name="Format File Property.vi" Type="VI" URL="../../../learning/LVUexamples/SubVIs/UI data header/Support/Format File Property.vi"/>
-			<Item Name="Global_usbComm.vi" Type="VI" URL="../../1259_usbComm/#include/Global_usbComm.vi"/>
 			<Item Name="Sampled Data.vi" Type="VI" URL="../../../learning/LVUexamples/SubVIs/UI data header/Support/Sampled Data.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -145,7 +142,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E7BC9DAC-7FC3-4737-99B8-BB2A6C01AF0D}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ControllerTest.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/ControllerTest.exe</Property>
@@ -154,7 +151,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5EAC47EE-AA66-4D5F-9286-6AAFB2D8A1D3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{99E2C721-9F84-4D81-A6EE-264570374B4B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/#include/Close Data File and open.vi</Property>
@@ -219,6 +216,10 @@
 				<Property Name="Source[23].itemID" Type="Ref">/My Computer/mainAuto.vi</Property>
 				<Property Name="Source[23].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[23].type" Type="Str">VI</Property>
+				<Property Name="Source[24].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[24].itemID" Type="Ref">/My Computer/#include/Header data_MClr.vi</Property>
+				<Property Name="Source[24].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[24].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/#include/Dual output square wave 180 out of phase.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
@@ -247,7 +248,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/#include/Pass_Fail.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">24</Property>
+				<Property Name="SourceCount" Type="Int">25</Property>
 				<Property Name="TgtF_companyName" Type="Str">ICON Health &amp; Fitness</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Release for testing...</Property>
 				<Property Name="TgtF_internalName" Type="Str">My Application</Property>
@@ -322,7 +323,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{5DA5B3EE-84DB-4CF8-B520-955AA622830C}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">Motor_Controller</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.6</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.7</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18018011</Property>
 				<Property Name="MSI_arpCompany" Type="Str">ICON Health &amp; Fitness</Property>
