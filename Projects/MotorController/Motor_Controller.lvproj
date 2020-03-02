@@ -13,12 +13,9 @@
 		<Item Name="#include" Type="Folder" URL="../#include">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="specsheetsController" Type="Folder" URL="../specsheetsController">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
+		<Item Name="specsheetsController" Type="Folder"/>
 		<Item Name="mainAuto.vi" Type="VI" URL="../mainAuto.vi"/>
 		<Item Name="mainAutoExtended.vi" Type="VI" URL="../mainAutoExtended.vi"/>
-		<Item Name="read me.txt" Type="Document" URL="../read me.txt"/>
 		<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
 		<Item Name="Untitled 2.vi" Type="VI" URL="../Untitled 2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -142,7 +139,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E7BC9DAC-7FC3-4737-99B8-BB2A6C01AF0D}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ControllerTest.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/ControllerTest.exe</Property>
@@ -151,7 +148,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{99E2C721-9F84-4D81-A6EE-264570374B4B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F7144DF0-7497-4516-B10C-B536A6C3192A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/#include/Close Data File and open.vi</Property>
@@ -323,7 +320,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{5DA5B3EE-84DB-4CF8-B520-955AA622830C}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">Motor_Controller</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.7</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.10</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18018011</Property>
 				<Property Name="MSI_arpCompany" Type="Str">ICON Health &amp; Fitness</Property>
@@ -350,11 +347,7 @@
 				<Property Name="Source[0].name" Type="Str">My Application</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/My Application</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="Source[1].dest" Type="Str">{5DA5B3EE-84DB-4CF8-B520-955AA622830C}</Property>
-				<Property Name="Source[1].name" Type="Str">read me.txt</Property>
-				<Property Name="Source[1].tag" Type="Ref">/My Computer/read me.txt</Property>
-				<Property Name="Source[1].type" Type="Str">File</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
 		</Item>
 	</Item>

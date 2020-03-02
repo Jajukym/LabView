@@ -1,0 +1,9 @@
+/**********************************/
+/*          On LabView            */
+/**********************************/
+/*Use "Call Library Function Node"*/
+/*Input path to .dll              */
+/*Input function name             */
+/*Input parameters called out     */
+/*Click OK                        */
+/**********************************/
