@@ -13,7 +13,9 @@
 		<Item Name="#include" Type="Folder" URL="../#include">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="specsheetsController" Type="Folder"/>
+		<Item Name="specsheetsController" Type="Folder" URL="../specsheetsController">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="mainAuto.vi" Type="VI" URL="../mainAuto.vi"/>
 		<Item Name="mainAutoExtended.vi" Type="VI" URL="../mainAutoExtended.vi"/>
 		<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
