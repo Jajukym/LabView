@@ -6,3 +6,4 @@ setup(name = "labviewdbupload",
       description = "Preliminary",
       executables = [Executable("labviewdbupload.py")]
       )
+#labviewdbupload designed by Ross Bunnell
