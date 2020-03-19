@@ -23,7 +23,7 @@ if len(sys.argv) > 1:
 
 ##Swap these file comments out before its built
 file = open(filelocation)
-#file = open('c:\\temp\\MC1618DLS Mar-02-20_092212.txt')
+#file = open('C:\\logsController\\MC1618DLS 3ÔÂ-12-20_141254.txt')
 f = file.read(-1)
 
 sendarray = []
@@ -64,7 +64,7 @@ def Upload(a):
                 sendarray[29] = 'NULL'
                 a[29] = 'NULL'
                 ###Sends the sql command to insert into the specified db
-                cursor.execute("INSERT INTO LabVIEW.Test (" + header + ") VALUES " + str(tuple(sendarray)))
+                cursor.execute("INSERT INTO LabVIEW.ControllerTest (" + header + ") VALUES " + str(tuple(sendarray)))
                 return (sendarray,a)
         if i != 'FAILED':
             sendarray.append(i)            
@@ -77,7 +77,7 @@ def Upload(a):
         continue
     try:
         if len(sendarray) == 30:
-            cursor.execute("INSERT INTO LabVIEW.Test (" + header + ") VALUES " + str(tuple(sendarray)))
+            cursor.execute("INSERT INTO LabVIEW.ControllerTest (" + header + ") VALUES " + str(tuple(sendarray)))
     except Error as e:
         print('Error: ',e)
     finally:
