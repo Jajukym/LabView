@@ -22,8 +22,8 @@ if len(sys.argv) > 1:
     filelocation = sys.argv[1]
 
 ##Swap these file comments out before its built
-file = open(filelocation)
-#file = open('c:\\temp\\MC1618DLS Mar-02-20_092212.txt')
+#file = open(filelocation)
+file = open('c:\\logsController\\MC1618DLS 3ÔÂ-12-20_132626.txt')
 f = file.read(-1)
 
 sendarray = []
