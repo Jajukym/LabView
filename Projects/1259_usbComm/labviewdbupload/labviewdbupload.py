@@ -22,8 +22,8 @@ if len(sys.argv) > 1:
     filelocation = sys.argv[1]
 
 ##Swap these file comments out before its built
-#file = open(filelocation)
-file = open('C:\\logsConsole\\Test3 3ÔÂ-13-20_133116.txt')
+file = open(filelocation)
+#file = open('C:\\logsConsole\\Test3 3ÔÂ-13-20_133116.txt')
 f = file.read(-1)
 
 sendarray = []
