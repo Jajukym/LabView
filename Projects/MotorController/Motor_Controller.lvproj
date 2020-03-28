@@ -124,6 +124,7 @@
 			</Item>
 			<Item Name="Create Data File.vi" Type="VI" URL="../../../learning/LVUexamples/SubVIs/UI data header/Support/Create Data File.vi"/>
 			<Item Name="dataSampled.vi" Type="VI" URL="../../1259_usbComm/#include/dataSampled.vi"/>
+			<Item Name="exeCLI.vi" Type="VI" URL="../../../learning/LVUexamples/SubVIs/exeCLI/exeCLI.vi"/>
 			<Item Name="Format File Property.vi" Type="VI" URL="../../../learning/LVUexamples/SubVIs/UI data header/Support/Format File Property.vi"/>
 			<Item Name="Sampled Data.vi" Type="VI" URL="../../../learning/LVUexamples/SubVIs/UI data header/Support/Sampled Data.vi"/>
 		</Item>
@@ -143,7 +144,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E7BC9DAC-7FC3-4737-99B8-BB2A6C01AF0D}</Property>
-				<Property Name="Bld_version.build" Type="Int">21</Property>
+				<Property Name="Bld_version.build" Type="Int">22</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ControllerTest.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/ControllerTest.exe</Property>
@@ -152,7 +153,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E6030AA8-1618-4C65-96B5-861937BEC1CE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{049DEEA3-0C52-4E01-B461-A7801F1ED4C3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/#include/Close Data File and open.vi</Property>
@@ -251,7 +252,7 @@
 				<Property Name="Source[9].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">25</Property>
 				<Property Name="TgtF_companyName" Type="Str">ICON Health &amp; Fitness</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Release for testing...</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Release...</Property>
 				<Property Name="TgtF_internalName" Type="Str">My Application</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 ICON Health &amp; Fitness</Property>
 				<Property Name="TgtF_productName" Type="Str">My Application</Property>
@@ -324,7 +325,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{5DA5B3EE-84DB-4CF8-B520-955AA622830C}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">Motor_Controller</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.15</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.16</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18018011</Property>
 				<Property Name="MSI_arpCompany" Type="Str">ICON Health &amp; Fitness</Property>
