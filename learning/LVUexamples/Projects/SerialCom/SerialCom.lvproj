@@ -10,6 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="SerialCom_For_Rich.vi" Type="VI" URL="../SerialCom_For_Rich.vi"/>
 		<Item Name="SerialCom_main.vi" Type="VI" URL="../SerialCom_main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -49,8 +50,8 @@
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="focusKey_input.vi" Type="VI" URL="../../../LVU examples/focusKey/#include/focusKey_input.vi"/>
-			<Item Name="Hex to Binary 64 bit (LV 8+).vi" Type="VI" URL="../../../../Projects/1259_usbComm/#include/Hex to Binary 64 bit (LV 8+).vi"/>
+			<Item Name="focusKey_input.vi" Type="VI" URL="../../../focusKey/#include/focusKey_input.vi"/>
+			<Item Name="Hex to Binary 64 bit (LV 8+).vi" Type="VI" URL="../../../../../Projects/1259_usbComm/#include/Hex to Binary 64 bit (LV 8+).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Application" Type="EXE">
