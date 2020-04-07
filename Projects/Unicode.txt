@@ -1,0 +1,9 @@
+To display Unicode languages, modify the LabVIEW .ini configuration file, using the following steps:
+Navigate to
+C:\Program Files (x86)\National Instruments\<LabVIEW>\LabVIEW.ini
+Add UseUnicode=TRUE to any new line in the LabVIEW .ini file.
+Save the file and exit LabVIEW. Upon relaunching LabVIEW, the Unicode characters should work correctly, whether typing or pasting in. 
+
+For control/indicator labels, it may be necessary to enter text as a Caption, not a Label. Right-click on the control/indicator and select Visible Items»Caption from the right-click menu. 
+
+Note: When building an executable that requires Unicode characters, insert the UseUnicode=TRUE line into the application .ini file generated with the executable.
