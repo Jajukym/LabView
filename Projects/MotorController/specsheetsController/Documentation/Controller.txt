@@ -1,8 +1,11 @@
 Motor_Controller
 
 Setup:
-	Copy "specsheetsController" folder in the "C:\" root directory
-	From the "Volume_x.x.x.x" folder, run install.exe
+	Download ControllerTest.zip folder and extract files
+	Install controller suite (install.exe) from ControllerTest\My Installer\Volume
+	Drag specsheetsController folder onto the root of your PC (C:\)
+	Drag labview db certs folder from  specsheetsController folder onto the root of your PC (C:\)
+	
 
 Connect USB cables to the PC:
 	Oscilloscope:
@@ -12,6 +15,7 @@ Connect USB cables to the PC:
 	Signal generator
 	USB Scanner
 	RS232 to UART adapter
+	Launch "ControllerTest" from the Windows Start menu
 
 ----------------LAUNCH APPLICATION----------------
 
