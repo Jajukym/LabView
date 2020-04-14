@@ -1,8 +1,11 @@
 ﻿马达控制器
 
 设定：
-复制“ C：\”根目录中的“ specsheetsController”文件夹
-从“ Volume_x.x.x.x”文件夹中，运行install.exe
+下载ControllerTest.zip文件夹并解压缩文件
+从ControllerTest \ My Installer \ Volume安装控制器套件（install.exe）
+将specsheetsController文件夹拖到PC的根目录（C：\）
+将labview db certs文件夹从specsheetsController文件夹拖到PC的根目录（C：\）
+
 
 将USB电缆连接到PC：
 示波器：
@@ -12,6 +15,7 @@ C。将垂直（时间）指示器设置为y轴-4
 信号发生器
 USB扫描仪
 RS232转UART适配器
+从Windows“开始”菜单启动“ ControllerTest”
 
  -  -  -  -  -  -  -  - 启动程序 -  -  -  -  -  -  -  - 
 
@@ -62,5 +66,5 @@ k。测速接头（如果控制器零件号为359336，请勿连接！）
 04.将速度电位器设置到中间位置。
 05.单击开始以测试电动机电压。
 06.出现提示时，将速度电位计设置为逆时针（左）的完整位置，然后单击“确定”。
-07.出现提示时，将速度电位计设置为顺时针（右）全位置，然后单击OK。
+07.出现提示时，将速度电位计设置为顺时针（右）全位置，然后单击“确定”。
 08.出现提示时，将速度电位计设置到中间位置，然后单击“确定”。
