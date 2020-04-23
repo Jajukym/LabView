@@ -352,7 +352,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{968905BA-8DA4-4B29-A6A4-882BFF446C23}</Property>
-				<Property Name="Bld_version.build" Type="Int">38</Property>
+				<Property Name="Bld_version.build" Type="Int">40</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ConsoleTest.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/ConsoleTest.exe</Property>
@@ -361,7 +361,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{55C047F4-CF99-494E-81DE-5BA774F2513F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C0250142-F285-49BD-9DE9-5C43CC5FB2A5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/#include/currentScan.vi</Property>
@@ -564,16 +564,16 @@
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">1</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{FF2FC67E-7962-419C-AD6F-F0158D364A3F}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI-488.2 Runtime 18.5</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{727FC9D0-D89C-4872-9428-F98F0862F735}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI-488.2 Runtime 19.5</Property>
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{357F6618-C660-41A2-A185-5578CC876D1D}</Property>
 				<Property Name="DistPart[1].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{AD0D6322-6E99-4244-BF1E-F2FBB67C70B2}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI-Serial Runtime 18.5</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{C1F48628-DF94-40A8-BA2B-77BEE154C572}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI-Serial Runtime 19.5</Property>
 				<Property Name="DistPart[1].upgradeCode" Type="Str">{01D82F43-B48D-46FF-8601-FC4FAAE20F41}</Property>
 				<Property Name="DistPart[2].flavorID" Type="Str">_deployment_</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{EDF95F83-017A-4425-8F94-63FF8533A5EA}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI-VISA Runtime 18.5</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{D9084972-85DA-4F19-B6B3-527E3948D5A1}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI-VISA Runtime 19.5</Property>
 				<Property Name="DistPart[2].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
 				<Property Name="DistPart[3].flavorID" Type="Str">DefaultFull</Property>
 				<Property Name="DistPart[3].productID" Type="Str">{0461072B-16FD-48C5-BA33-118D418BABA9}</Property>
@@ -622,7 +622,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{8013B786-8C60-4329-8437-696EA6B398CD}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">1259_usbComm</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.25</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.26</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18018011</Property>
 				<Property Name="MSI_arpCompany" Type="Str">ICON Health &amp; Fitness</Property>

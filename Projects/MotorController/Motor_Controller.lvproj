@@ -22,8 +22,12 @@
 		<Item Name="Untitled 2.vi" Type="VI" URL="../Untitled 2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
+				<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/RIGOL DM3058/Public/Close.vi"/>
+				<Item Name="Configure Measurement.vi" Type="VI" URL="/&lt;instrlib&gt;/RIGOL DM3058/Public/Configure/Configure Measurement.vi"/>
+				<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/RIGOL DM3058/Public/Initialize.vi"/>
+				<Item Name="Read Math.vi" Type="VI" URL="/&lt;instrlib&gt;/RIGOL DM3058/Public/Data/Read Math.vi"/>
+				<Item Name="Read Single Point.vi" Type="VI" URL="/&lt;instrlib&gt;/RIGOL DM3058/Public/Data/Read Single Point.vi"/>
 				<Item Name="RIGOL DG4000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/RIGOL DG4000 Series/RIGOL DG4000 Series.lvlib"/>
-				<Item Name="RIGOL DM3058.lvlib" Type="Library" URL="/&lt;instrlib&gt;/RIGOL DM3058/RIGOL DM3058.lvlib"/>
 				<Item Name="RIGOL DS1000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/RIGOL DS1000 Series/RIGOL DS1000 Series.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
@@ -153,7 +157,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{049DEEA3-0C52-4E01-B461-A7801F1ED4C3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9EA56A43-B52B-45FD-8A29-B06063BD562F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/#include/Close Data File and open.vi</Property>
