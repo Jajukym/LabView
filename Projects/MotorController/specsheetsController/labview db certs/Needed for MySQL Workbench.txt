@@ -1,0 +1,16 @@
+LabVIEW
+Standard (TCP/IP)
+
+Parameter:
+iconqaapi.iconfitness.com:3306
+remote
+LabVIEW
+
+Password:
+IconQ@!2019!remote
+
+SSL:
+Require
+client-key.pem
+client-cert.pem
+ca.pem

@@ -1,19 +1,33 @@
 Motor_Controller
 
 Setup:
-	Copy "specsheetsController" folder in the "C:\" root directory
-	From the "Volume_x.x.x.x" folder, run install.exe
+	Download ControllerTest.zip folder and extract files
+	Install controller suite (install.exe) from ControllerTest\My Installer\Volume
+	Drag specsheetsController folder onto the root of your PC (C:\)
+	Drag labview db certs folder from  specsheetsController folder onto the root of your PC (C:\)
+	
 
 Connect USB cables to the PC:
 	Oscilloscope:
 		a. Turn on all channels on the oscilloscope
+		b. Set horizontal (voltage) indicator for each channel to x-axis -3
+		c. set vertical (time) indicator to y-axis -4
 	Signal generator
 	USB Scanner
 	RS232 to UART adapter
+	Launch "ControllerTest" from the Windows Start menu
 
 ----------------LAUNCH APPLICATION----------------
 
 Initialize
+01. Fill out form with user information, vendor information, and order information.
+02. Select instrument connection ports (USB serial, oscilloscope, and waveform generator).
+03. On the harness box, verity that the switches are set as: "SWR", "SWR", "P/L", and "PRI".
+04. Connect scope leads to Secondary ports 1, 2, 3, and 4 matching probe numbers.
+05. On the harness box, verify that the probe lead positions match the positions in the photo.
+06. Scan test sample barcode.
+
+Software
 01. Connect harness to sample under test at points:
 	a. Motor + Connector
 	b. Motor - Connector
@@ -22,34 +36,35 @@ Initialize
 	e. Incline Header
 	f. Programming Header
 	g. 15V Test Point
-	h. Console Header
-	i. Incline Sense Header
-	j. Tach Sense Header
-02. Input user information.
-03. Select instrument connection ports.
-04. Scan test sample barcode.
+	h. HV bus Test Point
+	i. Console Header(if 12-pin header, connect 4-pin UART_Read to last 4 pins of the header)
+	j. Incline Sense Header
+	k. Tach Sense Header(if controller part number is 359336, DO NOT CONNECT!)
 
-Software
-01. On the harness box, verity that the switches are set as: "SWR", "P/L", and "PRI".
-02. Verify that scope leads are plugged into the Secondary ports respectivley; 1 to 1, 2 to 2, 3 to 3, and 4 to 4.
-03. On the motor load fixture, turn on the power.
-04. Scan serial number of the sample. 
+02. On the harness box, verity that the switches are set as: "SWR", "SWR", "P/L", and "PRI".
+03. Connect scope leads to Secondary ports 1, 2, 3, and 4 matching probe numbers.
+04. On the harness box, verify that the probe lead positions match the positions in the photo.
+05. Turn on the controller power switch.
+06. Scan test sample barcode.
 
 Secondary
-01. On the harness box, verity that the switches are set as: "PWM", "P/L", and "PRI".
-02. Click begin to test secondary side.
+01. On the harness box, verify that the switches are set as: "MEA", "PWM", "P/L", and "PRI".
+02. On the harness box, verify that the probe lead positions match the positions in the photo.
+03. Click begin to test console side voltage.
 
 Incline/Primary
-01. On the harness box, verity that the switches are set as: "PWM", "INC", and "PRI".
+01. On the harness box, verify that the switches are set as: "MEA", "PWM", "INC", and "PRI".
 02. Connect scope leads to Incline ports 3 and 4 matching probe numbers.
-03. Connect scope leads to Primary prots 1 and 2 matching probe numbers.
-04. Click begin to test incline relays.
+03. Connect scope leads to Primary ports 1 and 2 matching probe numbers.
+04. On the harness box, verify that the probe lead positions match the positions in the photo.
+05. Click begin to test incline relays.
 
 Motor
-01. On the harness box, verity that the switches are set as: "PWM", "P/L", and "MOT".
+01. On the harness box, verify that the switches are set as: "SWR", "PWM", "P/L", and "MOT".
 02. Connect scope leads to Motor ports 3 and 4 matching probe numbers.
-03. Set speed potentiometer to the middle position.
-04. Click begin to test motor.
-05. When prompted, set speed potentiometer to the full counter clockwise (Left) position and click OK.
-06. When prompted, set speed potentiometer to the full  clockwise (Right) position and click OK.
-07. When prompted, set speed potentiometer to the middle position and click OK.
+03. On the harness box, verify that the probe lead positions match the positions in the photo.
+04. Set speed potentiometer to the middle position.
+05. Click begin to test motor voltages.
+06. When prompted, set speed potentiometer to the full counter clockwise (Left) position and click OK.
+07. When prompted, set speed potentiometer to the full  clockwise (Right) position and click OK.
+08. When prompted, set speed potentiometer to the middle position and click OK.
