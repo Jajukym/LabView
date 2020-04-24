@@ -337,31 +337,31 @@
 			<Item Name="xlxsOpen.vi" Type="VI" URL="../../PIP_GEN_id-1/#include/xlxsOpen.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="My Application" Type="EXE">
+			<Item Name="LabVIEW_ConsoleTest" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{C244BA54-2552-46E2-9D24-5EA1405C8D33}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{9C91A819-3B8A-4938-8933-9F115532CA4C}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{8895D6CD-D98B-4B81-8E3F-FF9587FB38A6}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">My Application</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">LabVIEW_ConsoleTest</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/My Application</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/My_Application/My_Application</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{968905BA-8DA4-4B29-A6A4-882BFF446C23}</Property>
-				<Property Name="Bld_version.build" Type="Int">40</Property>
+				<Property Name="Bld_version.build" Type="Int">46</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">ConsoleTest.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/ConsoleTest.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">LabVIEW_ConsoleTest.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/My_Application/My_Application/LabVIEW_ConsoleTest.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/My_Application/My_Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C0250142-F285-49BD-9DE9-5C43CC5FB2A5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1F657963-854A-4254-9EEE-B655450CA160}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/#include/currentScan.vi</Property>
@@ -550,15 +550,15 @@
 				<Property Name="SourceCount" Type="Int">47</Property>
 				<Property Name="TgtF_companyName" Type="Str">ICON Health &amp; Fitness</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Release...</Property>
-				<Property Name="TgtF_internalName" Type="Str">My Application</Property>
+				<Property Name="TgtF_internalName" Type="Str">LabVIEW_ConsoleTest</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 ICON Health &amp; Fitness</Property>
-				<Property Name="TgtF_productName" Type="Str">My Application</Property>
+				<Property Name="TgtF_productName" Type="Str">LabVIEW_ConsoleTest</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{B4625DFA-F241-4625-8C37-96D09DCD7FA7}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">ConsoleTest.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">LabVIEW_ConsoleTest.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
-			<Item Name="My Installer" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">ConsoleTest</Property>
+			<Item Name="My_Installer" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">LabVIEW_ConsoleTest</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{8013B786-8C60-4329-8437-696EA6B398CD}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
@@ -616,38 +616,40 @@
 				<Property Name="DistPartCount" Type="Int">4</Property>
 				<Property Name="INST_author" Type="Str">ICON Health &amp; Fitness</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds/1259_usbComm/My Installer</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/LabVIEW_ConsoleTest/My_Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">My Installer</Property>
+				<Property Name="INST_buildSpecName" Type="Str">My_Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{8013B786-8C60-4329-8437-696EA6B398CD}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
-				<Property Name="INST_productName" Type="Str">1259_usbComm</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.26</Property>
+				<Property Name="INST_productName" Type="Str">LabVIEW_ConsoleTest</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.29</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18018011</Property>
 				<Property Name="MSI_arpCompany" Type="Str">ICON Health &amp; Fitness</Property>
-				<Property Name="MSI_arpContact" Type="Str">Bryan Lee</Property>
-				<Property Name="MSI_arpURL" Type="Str">bryan.lee@iconfitness.com</Property>
+				<Property Name="MSI_arpContact" Type="Str">bryan.lee@iconfitness.com</Property>
+				<Property Name="MSI_arpPhone" Type="Str">1.435.786.7717</Property>
+				<Property Name="MSI_arpURL" Type="Str">https://www.iconfitness.com</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_distID" Type="Str">{EE1DDFDF-D7EF-4E34-9ED1-FFA4DC5ACB28}</Property>
 				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{55F43083-A50F-4DB4-8AC6-7F8615098B61}</Property>
+				<Property Name="MSI_windowTitle" Type="Str">Welcome to the LabVIEW_ConsoleTest installer</Property>
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
 				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
 				<Property Name="RegDestCount" Type="Int">1</Property>
 				<Property Name="Source[0].dest" Type="Str">{8013B786-8C60-4329-8437-696EA6B398CD}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{8013B786-8C60-4329-8437-696EA6B398CD}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">ConsoleTest.exe</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">LabVIEW_ConsoleTest.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">ConsoleTest</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">ConsoleTest</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">LabVIEW_ConsoleTest</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">LabVIEW_ConsoleTest</Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{B4625DFA-F241-4625-8C37-96D09DCD7FA7}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
-				<Property Name="Source[0].name" Type="Str">My Application</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/My Application</Property>
+				<Property Name="Source[0].name" Type="Str">LabVIEW_ConsoleTest</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/LabVIEW_ConsoleTest</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
