@@ -17,9 +17,10 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="mainAuto.vi" Type="VI" URL="../mainAuto.vi"/>
-		<Item Name="mainAutoExtended.vi" Type="VI" URL="../mainAutoExtended.vi"/>
+		<Item Name="mainAuto1.vi" Type="VI" URL="../mainAuto1.vi"/>
 		<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
 		<Item Name="Untitled 2.vi" Type="VI" URL="../Untitled 2.vi"/>
+		<Item Name="Untitled 3.vi" Type="VI" URL="../Untitled 3.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="RIGOL DG4000 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/RIGOL DG4000 Series/RIGOL DG4000 Series.lvlib"/>
@@ -194,7 +195,7 @@
 				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[18].type" Type="Str">VI</Property>
 				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/My Computer/mainAutoExtended.vi</Property>
+				<Property Name="Source[19].itemID" Type="Ref"></Property>
 				<Property Name="Source[19].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/#include/CMD execution.vi</Property>
