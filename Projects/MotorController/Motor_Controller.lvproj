@@ -16,8 +16,7 @@
 		<Item Name="specsheetsController" Type="Folder" URL="../specsheetsController">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="mainAuto.vi" Type="VI" URL="../mainAuto.vi"/>
-		<Item Name="mainAuto1.vi" Type="VI" URL="../mainAuto1.vi"/>
+		<Item Name="mainAuto_newbox.vi" Type="VI" URL="../mainAuto_newbox.vi"/>
 		<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
 		<Item Name="Untitled 2.vi" Type="VI" URL="../Untitled 2.vi"/>
 		<Item Name="Untitled 3.vi" Type="VI" URL="../Untitled 3.vi"/>
@@ -128,14 +127,14 @@
 			<Item Name="Sampled Data.vi" Type="VI" URL="../../../learning/LVUexamples/SubVIs/UI data header/Support/Sampled Data.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="LabVIEW_ControllerTest" Type="EXE">
+			<Item Name="LabVIEW_ControllerTest0" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{E8B7AD08-5B1A-4ABA-A95E-DCD0326FF076}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{DA80C12C-4E18-48D8-9B46-BA8DBFA0EB30}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{7C7AF01C-DF5A-44DF-A32B-37BF6620CBC8}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">LabVIEW_ControllerTest</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">LabVIEW_ControllerTest0</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -143,16 +142,16 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E7BC9DAC-7FC3-4737-99B8-BB2A6C01AF0D}</Property>
-				<Property Name="Bld_version.build" Type="Int">24</Property>
+				<Property Name="Bld_version.build" Type="Int">27</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">LabVIEW_ControllerTest.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/LabVIEW_ControllerTest/LabVIEW_ControllerTest/LabVIEW_ControllerTest.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">LabVIEW_ControllerTest0.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/LabVIEW_ControllerTest/LabVIEW_ControllerTest/LabVIEW_ControllerTest0.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/LabVIEW_ControllerTest/LabVIEW_ControllerTest/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5BF0360C-A868-48FF-AD63-D866C2947BF0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7C8615F6-890D-462D-A26D-CF8602D703B4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/#include/Close Data File and open.vi</Property>
@@ -195,24 +194,21 @@
 				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[18].type" Type="Str">VI</Property>
 				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[19].itemID" Type="Ref"></Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/#include/Global textParse.vi</Property>
+				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[19].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/#include/CMD execution.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[20].itemID" Type="Ref">/My Computer/#include/Global textParse.vi</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/#include/Header data_MClr.vi</Property>
 				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[20].type" Type="Str">VI</Property>
 				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[21].itemID" Type="Ref">/My Computer/mainAuto.vi</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/mainAuto_newbox.vi</Property>
 				<Property Name="Source[21].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[21].type" Type="Str">VI</Property>
-				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[22].itemID" Type="Ref">/My Computer/#include/Header data_MClr.vi</Property>
-				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[22].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/#include/Dual output square wave 180 out of phase.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
@@ -241,14 +237,134 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/#include/Read Bar Code.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">23</Property>
+				<Property Name="SourceCount" Type="Int">22</Property>
 				<Property Name="TgtF_companyName" Type="Str">ICON Health &amp; Fitness</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Release...</Property>
-				<Property Name="TgtF_internalName" Type="Str">LabVIEW_ControllerTest</Property>
+				<Property Name="TgtF_internalName" Type="Str">LabVIEW_ControllerTest0</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 ICON Health &amp; Fitness</Property>
-				<Property Name="TgtF_productName" Type="Str">LabVIEW_ControllerTest</Property>
+				<Property Name="TgtF_productName" Type="Str">LabVIEW_ControllerTest0</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{855FDF17-9D7C-4778-9C75-7FB35B976BD9}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">LabVIEW_ControllerTest.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">LabVIEW_ControllerTest0.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="LabVIEW_ControllerTest1" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{32D580DD-7CE5-4D65-9C0F-779CC66C6507}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{4250EBC6-BE60-473F-B43E-9F05AAD56EAB}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{3FD17243-41D8-4923-9761-9751D8361AC9}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">LabVIEW_ControllerTest1</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/LabVIEW_ControllerTest/LabVIEW_ControllerTest</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{FAB50A65-F407-43BC-B949-76583287FB76}</Property>
+				<Property Name="Bld_version.build" Type="Int">28</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">LabVIEW_ControllerTest1.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/LabVIEW_ControllerTest/LabVIEW_ControllerTest/LabVIEW_ControllerTest1.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/LabVIEW_ControllerTest/LabVIEW_ControllerTest/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7C8615F6-890D-462D-A26D-CF8602D703B4}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/#include/Close Data File and open.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/#include/Ripple tolerance.vi</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[10].type" Type="Str">VI</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/#include/ScanStop.vi</Property>
+				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[11].type" Type="Str">VI</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/#include/Scope signal frame trim.vi</Property>
+				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[12].type" Type="Str">VI</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/#include/ScopeConfigure.vi</Property>
+				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[13].type" Type="Str">VI</Property>
+				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/#include/Serial data.vi</Property>
+				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[14].type" Type="Str">VI</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/#include/serial.vi</Property>
+				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[15].type" Type="Str">VI</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/#include/textParse.vi</Property>
+				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[16].type" Type="Str">VI</Property>
+				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/My Computer/#include/User data_MClr.vi</Property>
+				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[17].type" Type="Str">VI</Property>
+				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/#include/Voltage tolerance.vi</Property>
+				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[18].type" Type="Str">VI</Property>
+				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/#include/Global textParse.vi</Property>
+				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[19].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/#include/CMD execution.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/#include/Header data_MClr.vi</Property>
+				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[20].type" Type="Str">VI</Property>
+				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/mainAuto_newbox.vi</Property>
+				<Property Name="Source[21].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[21].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/#include/Dual output square wave 180 out of phase.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/#include/focusKey_input.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/#include/GeneratorConfigure.vi</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/#include/Header Title.vi</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/#include/JPG_import.vi</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/#include/Pass_Fail.vi</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/#include/Read Bar Code.vi</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">22</Property>
+				<Property Name="TgtF_companyName" Type="Str">ICON Health &amp; Fitness</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Release...</Property>
+				<Property Name="TgtF_internalName" Type="Str">LabVIEW_ControllerTest0</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 ICON Health &amp; Fitness</Property>
+				<Property Name="TgtF_productName" Type="Str">LabVIEW_ControllerTest0</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{E56CB6F4-AEEC-4C83-BF73-171BB89B3F7E}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">LabVIEW_ControllerTest1.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="My_Installer" Type="Installer">
@@ -316,7 +432,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{5DA5B3EE-84DB-4CF8-B520-955AA622830C}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">LabVIEW_ControllerTest</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.19</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.23</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18018011</Property>
 				<Property Name="MSI_arpCompany" Type="Str">ICON Health &amp; Fitness</Property>
@@ -335,17 +451,29 @@
 				<Property Name="RegDestCount" Type="Int">1</Property>
 				<Property Name="Source[0].dest" Type="Str">{5DA5B3EE-84DB-4CF8-B520-955AA622830C}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{5DA5B3EE-84DB-4CF8-B520-955AA622830C}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">LabVIEW_ControllerTest.exe</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">LabVIEW_ControllerTest0.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">LabVIEW_ControllerTest</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">LabVIEW_ControllerTest</Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{855FDF17-9D7C-4778-9C75-7FB35B976BD9}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
-				<Property Name="Source[0].name" Type="Str">My_Application</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/LabVIEW_ControllerTest</Property>
+				<Property Name="Source[0].name" Type="Str">LabVIEW_ControllerTest0</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/LabVIEW_ControllerTest0</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">1</Property>
+				<Property Name="Source[1].dest" Type="Str">{5DA5B3EE-84DB-4CF8-B520-955AA622830C}</Property>
+				<Property Name="Source[1].File[0].dest" Type="Str">{5DA5B3EE-84DB-4CF8-B520-955AA622830C}</Property>
+				<Property Name="Source[1].File[0].name" Type="Str">LabVIEW_ControllerTest1.exe</Property>
+				<Property Name="Source[1].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[1].File[0].Shortcut[0].name" Type="Str">LabVIEW_ControllerTest1</Property>
+				<Property Name="Source[1].File[0].Shortcut[0].subDir" Type="Str">LabVIEW_ControllerTest</Property>
+				<Property Name="Source[1].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[1].File[0].tag" Type="Str">{E56CB6F4-AEEC-4C83-BF73-171BB89B3F7E}</Property>
+				<Property Name="Source[1].FileCount" Type="Int">1</Property>
+				<Property Name="Source[1].name" Type="Str">LabVIEW_ControllerTest1</Property>
+				<Property Name="Source[1].tag" Type="Ref">/My Computer/Build Specifications/LabVIEW_ControllerTest1</Property>
+				<Property Name="Source[1].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 			</Item>
 		</Item>
 	</Item>
