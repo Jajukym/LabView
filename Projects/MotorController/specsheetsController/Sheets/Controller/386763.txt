@@ -6,7 +6,7 @@ Firmware Ver	12
 
 INPUT PRIMARY(7)	
 Input Voltage	120
-Input Voltage Tol.	15	15
+Input Voltage Tol.	20	20
 Input Current	0.5
 Max Input Current	0.25
 Allowable Power Interruption	0.001
@@ -32,12 +32,12 @@ LED Frequency	5	1.5	.5
 LED Frequency Tol.	1	1
 HV Bus Voltage(@20% PWM)	1.414	
 HV Bus Tol.	22	22
-Speed Pot Voltage Low(@30% PWM)	45
+Speed Pot Voltage Low(@30% PWM)	55
 Speed Pot Voltage Mid(@20% PWM)	35
-Speed Pot Voltage High(@30% PWM)	55
+Speed Pot Voltage High(@30% PWM)	70
 Speed Pot Voltage Tol.	15	15
 Ircomp	.8
-Current Running	1	4
+Current Running	2	6
 Current Limit	18
 
 PROTOCOL(43)

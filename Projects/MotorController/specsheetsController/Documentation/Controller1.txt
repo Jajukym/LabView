@@ -26,7 +26,6 @@ Motor
 03. Click begin to test motor voltages.
 04. When prompted, set speed potentiometer to the full counter clockwise (Left) position and click OK.
 05. When prompted, set speed potentiometer to the full  clockwise (Right) position and click OK.
-06. When prompted, set speed potentiometer to the middle position and click OK.
 
 Incline
 01. Toggle SW6.
