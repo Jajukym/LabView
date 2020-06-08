@@ -279,6 +279,7 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="New Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/New Zip File.vi"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_Unzip.lvlib" Type="Library" URL="/&lt;vilib&gt;/zip/NI_Unzip.lvlib"/>
@@ -334,6 +335,7 @@
 			<Item Name="Format File Property.vi" Type="VI" URL="../../../learning/LVUexamples/SubVIs/UI data header/Support/Format File Property.vi"/>
 			<Item Name="Header Title.vi" Type="VI" URL="../../MotorController/#include/Header Title.vi"/>
 			<Item Name="JPG_import.vi" Type="VI" URL="../../MotorController/#include/JPG_import.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Pass_Fail.vi" Type="VI" URL="../../MotorController/#include/Pass_Fail.vi"/>
 			<Item Name="Serial data.vi" Type="VI" URL="../../MotorController/#include/Serial data.vi"/>
 			<Item Name="xlxsOpen.vi" Type="VI" URL="../../PIP_GEN_id-1/#include/xlxsOpen.vi"/>
@@ -354,7 +356,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{968905BA-8DA4-4B29-A6A4-882BFF446C23}</Property>
-				<Property Name="Bld_version.build" Type="Int">67</Property>
+				<Property Name="Bld_version.build" Type="Int">68</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LabVIEW_ConsoleTest0.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LabVIEW_ConsoleTest/My_Application/LabVIEW_ConsoleTest0.exe</Property>
@@ -574,7 +576,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2C6D8E0F-2B2C-468C-B660-74C0958A38A7}</Property>
-				<Property Name="Bld_version.build" Type="Int">65</Property>
+				<Property Name="Bld_version.build" Type="Int">66</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LabVIEW_ConsoleTest1.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LabVIEW_ConsoleTest/My_Application/LabVIEW_ConsoleTest1.exe</Property>
@@ -844,7 +846,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{8013B786-8C60-4329-8437-696EA6B398CD}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">LabVIEW_ConsoleTest</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.41</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.42</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18018011</Property>
 				<Property Name="MSI_arpCompany" Type="Str">ICON Health &amp; Fitness</Property>

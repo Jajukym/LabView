@@ -29,7 +29,7 @@ f = file.read(-1)
 sendarray = []
 ###headers need to be in this format example: "Time,Vendor_Name,PO,FW"
 ###And exact wording to the DB table
-header = "Time,Inspection_Point,Vendor_Name,Vendor_Number,Inspector,Station,PO,PO_Line,Part_Name,Part_Number,Serial_Number,Cosmetic,Voltage,Current,Firmware,Calibrate,Display,KeyCode,BLEConnect,Speed,RPM,MaxSpeed,PWMFrequency,QuickSpeed,MaxPWM,Down,Up,ONE,Pulse,Fan,Audio,TV,USB,IdleCurrent,SurgeCurrent,QuickResistance,Decrease,Increase,Lowest,MinIncline,MaxIncline,QuickIncline,Down1,Up1,ZERO,CSAFE"
+header = "Time,Inspection_Point,Vendor_Name,Vendor_Number,Inspector,Station,PO,PO_Line,Part_Name,Part_Number,Serial_Number,Cosmetic,Voltage,Current,Firmware,Calibrate,Display,KeyCode,BLEConnect,Speed,RPM,SPM,MaxSpeed,PWMFrequency,QuickSpeed,MaxPWM,Down,Up,ONE,Pulse,Fan,Audio,TV,USB,IdleCurrent,SurgeCurrent,QuickResistance,Decrease,Increase,Lowest,MinIncline,MaxIncline,QuickIncline,Down1,Up1,ZERO,CSAFE"
 
 ###This section is to open the file(log.txt) and send it into a text based array, and skips past the headers to the data
 def Seek(f):
