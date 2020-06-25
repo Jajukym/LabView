@@ -1,3 +1,19 @@
+设定：
+下载ControllerTest.zip文件夹并解压缩文件
+从ControllerTest \ My Installer \ Volume安装控制器套件（install.exe）
+将specsheetsController文件夹拖到PC的根目录（C：\）
+将labview db certs文件夹从specsheetsController文件夹拖到PC的根目录（C：\）
+
+
+将USB电缆连接到PC：
+示波器：
+一种。打开示波器上的所有通道
+信号发生器
+USB扫描仪
+RS232转UART适配器
+从Windows“开始”菜单启动“ ControllerTest”
+
+ -  -  -  -  -  -  -  - 启动程序 -  -  -  -  -  -  -  - 
 初始化
 01.选择仪器连接端口（USB串行，示波器和波形发生器）。
 02.扫描测试样品条形码。
