@@ -1,0 +1,53 @@
+About this book
+
+A manual for a programming language called "LabVIEW". It's all free.
+Although LabVIEW is an expensive tool for professionals who develop automatic 
+measurement and control systems, "LabVIEW Community Edition" that can be used 
+for free only for hobby was released in April 2020.
+This is a great tool that allows you to create advanced software as if you were
+drawing it, so we wanted as many people as possible to know how wonderful 
+LabVIEW is.
+
+It is written for people over junior high school who are interested in 
+programming and electronic work. Even if you are new to programming or LabVIEW,
+it's okay.
+A Windows computer is required to experiment with what is written. The contents
+may be a little difficult, but for the time being, please read while executing 
+the sample VI. If you don't understand it, you can search it online or ask 
+someone who knows it later.
+
+The included VIs (LabVIEW programs) can be loaded in LabVIEW 2014 or later 
+versions of LabVIEW, so you can use them at school or at work.
+Some VIs use LINX and VISA libraries, so make sure you have VI Package Manager 
+and NI-VISA installed. The VI Package Manager makes it easy to download 
+Digilent LINX (community editions install them automatically).
+
+We are pleased to announce the world's first (probably) community edition 
+manual. Unfortunately, We didn't have the time to translate all the content. 
+We are looking for volunteers to help with the translation. Please contact us 
+by searching for "Emboar_Dymax" on the NI Community Page.
+
+Apr/27/2020 Japan LabVIEW Users Group, Volunteer members
+
+-----------------------------------------------------------------------------
+Licenses (copyright)
+
+The text is distributed under a Creative Commons license.
+- Anyone can read it for free.
+- There is no guarantee. The author is not responsible for any problems.
+- Please follow the conditions below when redistributing.
+BY: Display the original author's name (name, work title, etc.).
+NC: For non-profit purposes only.
+ND: Do not modify the work.
+For more information, refer to the following URL.
+http://creativecommons.org/licenses/by-nc-nd/4.0/deed
+
+The VI and the sketch that are included together are distributed under the 
+MIT license.
+- Everyone is free to use it.
+- When redistributing, keep the copyright notice (VI document) of the 
+  original author.
+- There is no guarantee. The author is not responsible for any problems.
+For details, refer to the following URL.
+https://opensource.org/licenses/mit-license.php
+-----------------------------------------------------------------------------

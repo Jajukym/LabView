@@ -1,3 +1,20 @@
+Setup:
+	Download ControllerTest.zip folder and extract files
+	Install controller suite (install.exe) from ControllerTest\My Installer\Volume
+	Drag specsheetsController folder onto the root of your PC (C:\)
+	Drag labview db certs folder from  specsheetsController folder onto the root of your PC (C:\)
+	
+
+Connect USB cables to the PC:
+	Oscilloscope:
+		a. Turn on all channels on the oscilloscope
+	Signal generator
+	USB Scanner
+	RS232 to UART adapter
+	Launch "ControllerTest" from the Windows Start menu
+
+----------------LAUNCH APPLICATION----------------
+
 Initialize
 01. Select instrument connection ports (USB serial, oscilloscope, and waveform generator).
 02. Scan test sample barcode.
