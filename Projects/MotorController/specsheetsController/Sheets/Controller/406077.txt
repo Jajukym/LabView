@@ -1,5 +1,5 @@
-Part Name	MC1648DLS
-Part Number	386763
+Part Name	MC1648DLS__JST
+Part Number	406077
 Firmware Ver	12	
 
 
@@ -45,6 +45,4 @@ SPEED	Manual
 DISTANCE	LoResTach
 GRADE	Manual
 			
-REV0	03/20/2019	created	id:0
-REV1	02/24/2020	added protocol base	id:0
-REV2	07/16/2020	modified motor controller tolerances	id:0
+REV0	07/16/2020	created	id:0
