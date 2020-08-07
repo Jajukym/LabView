@@ -1,13 +1,5 @@
 [ProjectWindow_Data]
-ProjectExplorer.ClassicPosition[String] = "290,2145,801,2542"
-
-[AB_Cache_{999EF86C-922A-4BAF-A96C-AC73712DB02B}]
-Cache_Path[Path] Line0001 = "/C/Users/bryan.lee/AppData/Local/Temp/AB_Cache_{99"
-Cache_Path[Path] Line0002 = "9EF86C-922A-4BAF-A96C-AC73712DB02B}.txt"
-
-[AB_Cache_{C549BEB8-8C87-4942-976E-228630ECACB5}]
-Cache_Path[Path] Line0001 = "/C/Users/bryan.lee/AppData/Local/Temp/AB_Cache_{C5"
-Cache_Path[Path] Line0002 = "49BEB8-8C87-4942-976E-228630ECACB5}.txt"
+ProjectExplorer.ClassicPosition[String] = "559,1927,1070,2324"
 
 [AB_Cache_{40B3878D-6F90-4698-A57C-00B5320D1375}]
 Cache_Path[Path] Line0001 = "/C/Users/bryan.lee/AppData/Local/Temp/AB_Cache_{40"
@@ -16,4 +8,12 @@ Cache_Path[Path] Line0002 = "B3878D-6F90-4698-A57C-00B5320D1375}.txt"
 [AB_Cache_{11E634F8-A6E0-4C91-9319-D7C58C797A92}]
 Cache_Path[Path] Line0001 = "/C/Users/bryan.lee/AppData/Local/Temp/AB_Cache_{11"
 Cache_Path[Path] Line0002 = "E634F8-A6E0-4C91-9319-D7C58C797A92}.txt"
+
+[AB_Cache_{BAADCCC6-0C71-404F-916B-D8D95C6B086B}]
+Cache_Path[Path] Line0001 = "/C/Users/bryan.lee/AppData/Local/Temp/AB_Cache_{BA"
+Cache_Path[Path] Line0002 = "ADCCC6-0C71-404F-916B-D8D95C6B086B}.txt"
+
+[AB_Cache_{A7747CE5-2867-4A63-9871-B06D2FC11387}]
+Cache_Path[Path] Line0001 = "/C/Users/bryan.lee/AppData/Local/Temp/AB_Cache_{A7"
+Cache_Path[Path] Line0002 = "747CE5-2867-4A63-9871-B06D2FC11387}.txt"
 

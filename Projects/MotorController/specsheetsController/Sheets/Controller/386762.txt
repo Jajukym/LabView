@@ -33,11 +33,11 @@ LED Frequency Tol.	1	1
 HV Bus Voltage(@20% PWM)	1.414	
 HV Bus Tol.	22	22
 Speed Pot Voltage Low(@30% PWM)	55
-Speed Pot Voltage Mid(@20% PWM)	35
+Speed Pot Voltage Mid(@20% PWM)	45
 Speed Pot Voltage High(@30% PWM)	70
-Speed Pot Voltage Tol.	15	15
+Speed Pot Voltage Tol.	30	30
 Ircomp	.8
-Current Running	2	6
+Current Running	2	15
 Current Limit	18
 
 PROTOCOL(43)
@@ -47,3 +47,4 @@ GRADE	Manual
 			
 REV0	03/20/2019	created	id:0
 REV1	02/24/2020	added protocol base	id:0
+REV2	07/16/2020	modified motor controller tolerances	id:0

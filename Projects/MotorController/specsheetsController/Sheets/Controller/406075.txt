@@ -1,0 +1,48 @@
+Part Name	MC1618DLS_JST
+Part Number	406075
+Firmware Ver	12	
+
+
+
+INPUT PRIMARY(7)	
+Input Voltage	120
+Input Voltage Tol.	20	20
+Input Current	0.5
+Max Input Current	0.25
+Allowable Power Interruption	0.001
+
+OUTPUT SECONDARY(14)		
+Voltage Output	9		
+Voltage Output Tol.	1.5	1.5
+Ripple/Noise	0
+Ripple/Noise Tol.	0	1.5
+Rated Output Current	2	
+Rated Output Current Tol.	2	2.5
+Sense Voltage	5
+Sense Voltage Tol.	0.8	0.8
+
+OUTPUT PRIMARY(24)
+Voltage Micro	5
+Voltage Micro Tol.	0.5	1
+Voltage FET Driver	15
+Voltage FET Driver Tol.	8	8
+
+MOTOR CONTROLLER(30)
+LED Frequency	5	1.5	.5
+LED Frequency Tol.	1	1
+HV Bus Voltage(@20% PWM)	1.414	
+HV Bus Tol.	22	22
+Speed Pot Voltage Low(@30% PWM)	55
+Speed Pot Voltage Mid(@20% PWM)	45
+Speed Pot Voltage High(@30% PWM)	70
+Speed Pot Voltage Tol.	30	30
+Ircomp	.8
+Current Running	2	15
+Current Limit	18
+
+PROTOCOL(43)
+SPEED	Manual
+DISTANCE	LoResTach
+GRADE	Manual
+			
+REV0	07/16/2020	created	id:0

@@ -11,12 +11,14 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Autosetup.vi" Type="VI" URL="../Autosetup.vi"/>
+		<Item Name="Config_Read_DS1102E.vi" Type="VI" URL="../Config_Read_DS1102E.vi"/>
 		<Item Name="Dual output square wave 180 out of phase.vi" Type="VI" URL="../Dual output square wave 180 out of phase.vi"/>
 		<Item Name="Instrumentation Controls.vi" Type="VI" URL="../Instrumentation Controls.vi"/>
 		<Item Name="Multiple test points on oscilliscope.vi" Type="VI" URL="../Multiple test points on oscilliscope.vi"/>
 		<Item Name="Read (Single _mod).vi" Type="VI" URL="../Read (Single _mod).vi"/>
 		<Item Name="RIGOL DS1000 Series Acquire Continuous Waveform.vi" Type="VI" URL="../RIGOL DS1000 Series Acquire Continuous Waveform.vi"/>
-		<Item Name="Rigol_Scope_Configure.vi" Type="VI" URL="../Rigol_Scope_Configure.vi"/>
+		<Item Name="Rigol_Scope_Configure_DS1102E.vi" Type="VI" URL="../Rigol_Scope_Configure_DS1102E.vi"/>
+		<Item Name="Rigol_Scope_Configure_DS1204B.vi" Type="VI" URL="../Rigol_Scope_Configure_DS1204B.vi"/>
 		<Item Name="ScopeTest.vi" Type="VI" URL="../ScopeTest.vi"/>
 		<Item Name="Single test point on oscilliscope.vi" Type="VI" URL="../Single test point on oscilliscope.vi"/>
 		<Item Name="Voltage measurment on multimeter.vi" Type="VI" URL="../Voltage measurment on multimeter.vi"/>
@@ -141,7 +143,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{11E634F8-A6E0-4C91-9319-D7C58C797A92}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Read(Single_mod).exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Read(Single_mod)/Read(Single_mod).exe</Property>
@@ -166,44 +168,44 @@
 				<Property Name="TgtF_targetfileName" Type="Str">Read(Single_mod).exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Rigol_Scope_Configure" Type="EXE">
+			<Item Name="Rigol_Scope_Configure_DS1102E" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{EF828C8E-DFB5-44DB-98D6-633E272C8D5A}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{0F5D9600-27CE-4EB2-8194-DB3F317B6242}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{E29B8B76-1FFE-4902-BF6A-5A109708FFF5}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{9F995D4F-A146-47EE-9770-F9A84680D4DC}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{999EF86C-922A-4BAF-A96C-AC73712DB02B}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Rigol_Scope_Configure</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{BAADCCC6-0C71-404F-916B-D8D95C6B086B}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Rigol_Scope_Configure_DS1102E</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Rigol_Scope_Configure</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Rigol_Scope_Configure_DS1102E</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{C549BEB8-8C87-4942-976E-228630ECACB5}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{A7747CE5-2867-4A63-9871-B06D2FC11387}</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Rigol_Scope_Configure.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Rigol_Scope_Configure/Rigol_Scope_Configure.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Rigol_Scope_Configure_DS1102E.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Rigol_Scope_Configure_DS1102E/Rigol_Scope_Configure_DS1102E.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Rigol_Scope_Configure/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Rigol_Scope_Configure_DS1102E/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5A2F0FEF-93B8-4B14-9C4B-2E2292E46F2C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0B81B58B-9B1F-430A-BDF2-1D5E751B4F30}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Rigol_Scope_Configure.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Rigol_Scope_Configure_DS1102E.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">ICON Health &amp; Fitness</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Rigol_Scope_Configure</Property>
-				<Property Name="TgtF_internalName" Type="Str">Rigol_Scope_Configure</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Rigol_Scope_Configure_DS1102E</Property>
+				<Property Name="TgtF_internalName" Type="Str">Rigol_Scope_Configure_DS1102E</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 ICON Health &amp; Fitness</Property>
-				<Property Name="TgtF_productName" Type="Str">Rigol_Scope_Configure</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{617BDBC7-28B7-499D-AF80-D5C6B09351A2}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Rigol_Scope_Configure.exe</Property>
+				<Property Name="TgtF_productName" Type="Str">Rigol_Scope_Configure_DS1102E</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{B13A5842-FEA1-4A92-80C8-9C2F55E7D14E}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Rigol_Scope_Configure_DS1102E.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
