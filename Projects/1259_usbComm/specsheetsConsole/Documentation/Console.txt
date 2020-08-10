@@ -2,8 +2,8 @@ ConsoleTest
 
 Setup:
 	Download ConsoleTest.zip folder and extract files
-	Update EQF1259 from ConsoleTest\EQF1259_firmware
-	Install console suite (install.exe) from ConsoleTest\My Installer\Volume
+	Update EQF1259 from EQF1259_firmware
+	Install console suite (install.exe) from LabVIEW_ConsoleTest\My Installer\Volume
 	Drag specsheetsConsole folder onto the root of your PC (C:\)
 	Drag labview db certs folder from  specsheetsConsole folder onto the root of your PC (C:\)
 	
@@ -17,6 +17,6 @@ Connect USB cables to the PC:
 ----------------LAUNCH APPLICATION----------------
 
 Initialize
-01. Fill out form with user information, vendor information, and order information.
-02. Select instrument connection ports.
+01. Select instrument connection ports.
+02. Select test location.
 03. Follow the directions on screen.
