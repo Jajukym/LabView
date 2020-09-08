@@ -1,9 +1,9 @@
 控制台测试
 
-设定：
+建立：
 下载ConsoleTest.zip文件夹并解压缩文件
-从ConsoleTest \ EQF1259_firmware更新EQF1259
-从ConsoleTest \ My Installer \ Volume安装控制台套件（install.exe）
+从EQF1259_firmware更新EQF1259
+从LabVIEW_ConsoleTest \我的安装程序\卷安装控制台套件（install.exe）
 将specsheetsConsole文件夹拖到PC的根目录（C：\）
 将labview db certs文件夹从specsheetsConsole文件夹拖到PC的根目录（C：\）
 
@@ -17,6 +17,6 @@
  -  -  -  -  -  -  -  - 启动程序 -  -  -  -  -  -  -  - 
 
 初始化
-01.填写表单，其中包含用户信息，供应商信息和订单信息。
-02.选择仪器连接端口。
+01.选择仪器连接端口。
+02.选择测试位置。
 03.按照屏幕上的说明进行操作。

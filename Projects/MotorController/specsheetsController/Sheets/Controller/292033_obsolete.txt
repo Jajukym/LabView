@@ -32,12 +32,12 @@ LED Frequency	5	1.5	0.5
 LED Frequency Tol.	1	1	
 HV Bus Voltage	1.414		
 HV Bus Tol.	22	22	
-Speed Pot Voltage Low(@ x% PWM)	45		
-Speed Pot Voltage Mid(@ x% PWM)	35		
-Speed Pot Voltage High(@ x% PWM)	55		
-Speed Pot Voltage Tol.	15	15	
-Ircomp	.5		
-Current Running	2	5	
+Speed Pot Voltage Low(@ x% PWM)	55		
+Speed Pot Voltage Mid(@ x% PWM)	45		
+Speed Pot Voltage High(@ x% PWM)	70		
+Speed Pot Voltage Tol.	30	30	
+Ircomp	.8		
+Current Running	2	15	
 Current Limit	18	
 
 PROTOCOL(43)
@@ -47,4 +47,4 @@ GRADE	None
 			
 REV0	03/20/2019	created	id:0
 REV1	02/24/2020	added protocol base	id:0
-
+Rev2	08/28/2020	modified motor tolerances	id:0

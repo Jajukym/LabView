@@ -8,7 +8,7 @@ ssl = {'cert' : 'C:\labview db certs\client-cert.pem',
 
 ###this is how python connects to the db
 conn = MySQLdb.connections.Connection(
-    host='iconqaapi.iconfitness.com',
+    host='localhost',
     user='remote',
     passwd='IconQ@!2019!remote',
     port = 3306,
