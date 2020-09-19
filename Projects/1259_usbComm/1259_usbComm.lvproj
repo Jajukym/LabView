@@ -356,7 +356,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{968905BA-8DA4-4B29-A6A4-882BFF446C23}</Property>
-				<Property Name="Bld_version.build" Type="Int">77</Property>
+				<Property Name="Bld_version.build" Type="Int">82</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LabVIEW_ConsoleTest0.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LabVIEW_ConsoleTest/My_Application/LabVIEW_ConsoleTest0.exe</Property>
@@ -365,7 +365,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/LabVIEW_ConsoleTest/My_Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D52A7B8A-5A78-46AE-9FE3-19E654F67716}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5213B87E-EF79-4C70-B6C1-EEDFDDE7E6F4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/#include/currentScan.vi</Property>
@@ -408,7 +408,7 @@
 				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[18].type" Type="Str">VI</Property>
 				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[19].itemID" Type="Ref"></Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/#include/convertBB_FW.vi</Property>
 				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[19].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
@@ -416,43 +416,43 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[20].itemID" Type="Ref">/My Computer/#include/convertBB_FW.vi</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/#include/converterPartNumber.vi</Property>
 				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[20].type" Type="Str">VI</Property>
 				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[21].itemID" Type="Ref">/My Computer/#include/converterPartNumber.vi</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/#include/convertTheRest.vi</Property>
 				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[21].type" Type="Str">VI</Property>
 				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[22].itemID" Type="Ref">/My Computer/#include/convertTheRest.vi</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/My Computer/#include/resistanceCalculator_RS485.vi</Property>
 				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[22].type" Type="Str">VI</Property>
 				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[23].itemID" Type="Ref">/My Computer/#include/resistanceCalculator_RS485.vi</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/My Computer/#include/audio_tvPIP.vi</Property>
 				<Property Name="Source[23].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[23].type" Type="Str">VI</Property>
 				<Property Name="Source[24].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[24].itemID" Type="Ref">/My Computer/#include/audio_tvPIP.vi</Property>
+				<Property Name="Source[24].itemID" Type="Ref">/My Computer/#include/controllerPIP.vi</Property>
 				<Property Name="Source[24].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[24].type" Type="Str">VI</Property>
 				<Property Name="Source[25].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[25].itemID" Type="Ref">/My Computer/#include/controllerPIP.vi</Property>
+				<Property Name="Source[25].itemID" Type="Ref">/My Computer/#include/controllerVoltage.vi</Property>
 				<Property Name="Source[25].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[25].type" Type="Str">VI</Property>
 				<Property Name="Source[26].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[26].itemID" Type="Ref">/My Computer/#include/controllerVoltage.vi</Property>
+				<Property Name="Source[26].itemID" Type="Ref">/My Computer/#include/cosmeticPIP.vi</Property>
 				<Property Name="Source[26].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[26].type" Type="Str">VI</Property>
 				<Property Name="Source[27].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[27].itemID" Type="Ref">/My Computer/#include/cosmeticPIP.vi</Property>
+				<Property Name="Source[27].itemID" Type="Ref">/My Computer/#include/csafePIP.vi</Property>
 				<Property Name="Source[27].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[27].type" Type="Str">VI</Property>
 				<Property Name="Source[28].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[28].itemID" Type="Ref">/My Computer/#include/csafePIP.vi</Property>
+				<Property Name="Source[28].itemID" Type="Ref">/My Computer/#include/currentPeak.vi</Property>
 				<Property Name="Source[28].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[28].type" Type="Str">VI</Property>
 				<Property Name="Source[29].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[29].itemID" Type="Ref">/My Computer/#include/currentPeak.vi</Property>
+				<Property Name="Source[29].itemID" Type="Ref">/My Computer/#include/fanPIP.vi</Property>
 				<Property Name="Source[29].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[29].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
@@ -460,43 +460,43 @@
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[30].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[30].itemID" Type="Ref">/My Computer/#include/fanPIP.vi</Property>
+				<Property Name="Source[30].itemID" Type="Ref">/My Computer/#include/gearCalculator.vi</Property>
 				<Property Name="Source[30].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[30].type" Type="Str">VI</Property>
 				<Property Name="Source[31].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[31].itemID" Type="Ref">/My Computer/#include/gearCalculator.vi</Property>
+				<Property Name="Source[31].itemID" Type="Ref">/My Computer/#include/inclinePIP.vi</Property>
 				<Property Name="Source[31].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[31].type" Type="Str">VI</Property>
 				<Property Name="Source[32].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[32].itemID" Type="Ref"></Property>
+				<Property Name="Source[32].itemID" Type="Ref">/My Computer/#include/maintenancePIP.vi</Property>
 				<Property Name="Source[32].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[32].type" Type="Str">VI</Property>
 				<Property Name="Source[33].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[33].itemID" Type="Ref">/My Computer/#include/inclinePIP.vi</Property>
+				<Property Name="Source[33].itemID" Type="Ref">/My Computer/#include/parseQuickKey.vi</Property>
 				<Property Name="Source[33].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[33].type" Type="Str">VI</Property>
 				<Property Name="Source[34].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[34].itemID" Type="Ref">/My Computer/#include/maintenancePIP.vi</Property>
+				<Property Name="Source[34].itemID" Type="Ref">/My Computer/#include/parseSDfeatures.vi</Property>
 				<Property Name="Source[34].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[34].type" Type="Str">VI</Property>
 				<Property Name="Source[35].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[35].itemID" Type="Ref">/My Computer/#include/parseQuickKey.vi</Property>
+				<Property Name="Source[35].itemID" Type="Ref">/My Computer/#include/pulsePIP.vi</Property>
 				<Property Name="Source[35].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[35].type" Type="Str">VI</Property>
 				<Property Name="Source[36].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[36].itemID" Type="Ref">/My Computer/#include/parseSDfeatures.vi</Property>
+				<Property Name="Source[36].itemID" Type="Ref">/My Computer/#include/pwm_rpmPIP.vi</Property>
 				<Property Name="Source[36].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[36].type" Type="Str">VI</Property>
 				<Property Name="Source[37].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[37].itemID" Type="Ref">/My Computer/#include/pulsePIP.vi</Property>
+				<Property Name="Source[37].itemID" Type="Ref">/My Computer/#include/resistanceCalculator.vi</Property>
 				<Property Name="Source[37].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[37].type" Type="Str">VI</Property>
 				<Property Name="Source[38].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[38].itemID" Type="Ref">/My Computer/#include/pwm_rpmPIP.vi</Property>
+				<Property Name="Source[38].itemID" Type="Ref">/My Computer/#include/resistancePIP.vi</Property>
 				<Property Name="Source[38].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[38].type" Type="Str">VI</Property>
 				<Property Name="Source[39].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[39].itemID" Type="Ref">/My Computer/#include/resistanceCalculator.vi</Property>
+				<Property Name="Source[39].itemID" Type="Ref">/My Computer/#include/resistanceQuiry_RS458.vi</Property>
 				<Property Name="Source[39].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[39].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
@@ -504,33 +504,21 @@
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[40].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[40].itemID" Type="Ref">/My Computer/#include/resistancePIP.vi</Property>
+				<Property Name="Source[40].itemID" Type="Ref">/My Computer/#include/User data_Cnsl.vi</Property>
 				<Property Name="Source[40].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[40].type" Type="Str">VI</Property>
 				<Property Name="Source[41].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[41].itemID" Type="Ref">/My Computer/#include/resistanceQuiry_RS458.vi</Property>
+				<Property Name="Source[41].itemID" Type="Ref">/My Computer/#include/wahooPIP.vi</Property>
 				<Property Name="Source[41].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[41].type" Type="Str">VI</Property>
 				<Property Name="Source[42].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[42].itemID" Type="Ref"></Property>
+				<Property Name="Source[42].itemID" Type="Ref">/My Computer/#include/usbPIP.vi</Property>
 				<Property Name="Source[42].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[42].type" Type="Str">VI</Property>
 				<Property Name="Source[43].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[43].itemID" Type="Ref">/My Computer/#include/User data_Cnsl.vi</Property>
+				<Property Name="Source[43].itemID" Type="Ref">/My Computer/#include/Header data_Cnsl.vi</Property>
 				<Property Name="Source[43].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[43].type" Type="Str">VI</Property>
-				<Property Name="Source[44].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[44].itemID" Type="Ref">/My Computer/#include/wahooPIP.vi</Property>
-				<Property Name="Source[44].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[44].type" Type="Str">VI</Property>
-				<Property Name="Source[45].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[45].itemID" Type="Ref">/My Computer/#include/usbPIP.vi</Property>
-				<Property Name="Source[45].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[45].type" Type="Str">VI</Property>
-				<Property Name="Source[46].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[46].itemID" Type="Ref">/My Computer/#include/Header data_Cnsl.vi</Property>
-				<Property Name="Source[46].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[46].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/#include/parseExcel.vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
@@ -551,7 +539,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/#include/currentMax.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">47</Property>
+				<Property Name="SourceCount" Type="Int">44</Property>
 				<Property Name="TgtF_companyName" Type="Str">ICON Health &amp; Fitness</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Release...</Property>
 				<Property Name="TgtF_internalName" Type="Str">LabVIEW_ConsoleTest0</Property>
@@ -576,7 +564,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2C6D8E0F-2B2C-468C-B660-74C0958A38A7}</Property>
-				<Property Name="Bld_version.build" Type="Int">71</Property>
+				<Property Name="Bld_version.build" Type="Int">75</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LabVIEW_ConsoleTest1.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LabVIEW_ConsoleTest/My_Application/LabVIEW_ConsoleTest1.exe</Property>
@@ -585,7 +573,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/LabVIEW_ConsoleTest/My_Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D52A7B8A-5A78-46AE-9FE3-19E654F67716}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5213B87E-EF79-4C70-B6C1-EEDFDDE7E6F4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/#include/currentScan.vi</Property>
@@ -628,7 +616,7 @@
 				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[18].type" Type="Str">VI</Property>
 				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[19].itemID" Type="Ref"></Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/#include/convertBB_FW.vi</Property>
 				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[19].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
@@ -636,43 +624,43 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[20].itemID" Type="Ref">/My Computer/#include/convertBB_FW.vi</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/#include/converterPartNumber.vi</Property>
 				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[20].type" Type="Str">VI</Property>
 				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[21].itemID" Type="Ref">/My Computer/#include/converterPartNumber.vi</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/#include/convertTheRest.vi</Property>
 				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[21].type" Type="Str">VI</Property>
 				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[22].itemID" Type="Ref">/My Computer/#include/convertTheRest.vi</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/My Computer/#include/resistanceCalculator_RS485.vi</Property>
 				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[22].type" Type="Str">VI</Property>
 				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[23].itemID" Type="Ref">/My Computer/#include/resistanceCalculator_RS485.vi</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/My Computer/#include/audio_tvPIP.vi</Property>
 				<Property Name="Source[23].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[23].type" Type="Str">VI</Property>
 				<Property Name="Source[24].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[24].itemID" Type="Ref">/My Computer/#include/audio_tvPIP.vi</Property>
+				<Property Name="Source[24].itemID" Type="Ref">/My Computer/#include/controllerPIP.vi</Property>
 				<Property Name="Source[24].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[24].type" Type="Str">VI</Property>
 				<Property Name="Source[25].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[25].itemID" Type="Ref">/My Computer/#include/controllerPIP.vi</Property>
+				<Property Name="Source[25].itemID" Type="Ref">/My Computer/#include/controllerVoltage.vi</Property>
 				<Property Name="Source[25].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[25].type" Type="Str">VI</Property>
 				<Property Name="Source[26].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[26].itemID" Type="Ref">/My Computer/#include/controllerVoltage.vi</Property>
+				<Property Name="Source[26].itemID" Type="Ref">/My Computer/#include/cosmeticPIP.vi</Property>
 				<Property Name="Source[26].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[26].type" Type="Str">VI</Property>
 				<Property Name="Source[27].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[27].itemID" Type="Ref">/My Computer/#include/cosmeticPIP.vi</Property>
+				<Property Name="Source[27].itemID" Type="Ref">/My Computer/#include/csafePIP.vi</Property>
 				<Property Name="Source[27].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[27].type" Type="Str">VI</Property>
 				<Property Name="Source[28].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[28].itemID" Type="Ref">/My Computer/#include/csafePIP.vi</Property>
+				<Property Name="Source[28].itemID" Type="Ref">/My Computer/#include/currentPeak.vi</Property>
 				<Property Name="Source[28].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[28].type" Type="Str">VI</Property>
 				<Property Name="Source[29].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[29].itemID" Type="Ref">/My Computer/#include/currentPeak.vi</Property>
+				<Property Name="Source[29].itemID" Type="Ref">/My Computer/#include/fanPIP.vi</Property>
 				<Property Name="Source[29].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[29].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
@@ -680,43 +668,43 @@
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[30].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[30].itemID" Type="Ref">/My Computer/#include/fanPIP.vi</Property>
+				<Property Name="Source[30].itemID" Type="Ref">/My Computer/#include/gearCalculator.vi</Property>
 				<Property Name="Source[30].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[30].type" Type="Str">VI</Property>
 				<Property Name="Source[31].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[31].itemID" Type="Ref">/My Computer/#include/gearCalculator.vi</Property>
+				<Property Name="Source[31].itemID" Type="Ref">/My Computer/#include/inclinePIP.vi</Property>
 				<Property Name="Source[31].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[31].type" Type="Str">VI</Property>
 				<Property Name="Source[32].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[32].itemID" Type="Ref"></Property>
+				<Property Name="Source[32].itemID" Type="Ref">/My Computer/#include/maintenancePIP.vi</Property>
 				<Property Name="Source[32].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[32].type" Type="Str">VI</Property>
 				<Property Name="Source[33].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[33].itemID" Type="Ref">/My Computer/#include/inclinePIP.vi</Property>
+				<Property Name="Source[33].itemID" Type="Ref">/My Computer/#include/parseQuickKey.vi</Property>
 				<Property Name="Source[33].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[33].type" Type="Str">VI</Property>
 				<Property Name="Source[34].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[34].itemID" Type="Ref">/My Computer/#include/maintenancePIP.vi</Property>
+				<Property Name="Source[34].itemID" Type="Ref">/My Computer/#include/parseSDfeatures.vi</Property>
 				<Property Name="Source[34].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[34].type" Type="Str">VI</Property>
 				<Property Name="Source[35].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[35].itemID" Type="Ref">/My Computer/#include/parseQuickKey.vi</Property>
+				<Property Name="Source[35].itemID" Type="Ref">/My Computer/#include/pulsePIP.vi</Property>
 				<Property Name="Source[35].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[35].type" Type="Str">VI</Property>
 				<Property Name="Source[36].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[36].itemID" Type="Ref">/My Computer/#include/parseSDfeatures.vi</Property>
+				<Property Name="Source[36].itemID" Type="Ref">/My Computer/#include/pwm_rpmPIP.vi</Property>
 				<Property Name="Source[36].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[36].type" Type="Str">VI</Property>
 				<Property Name="Source[37].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[37].itemID" Type="Ref">/My Computer/#include/pulsePIP.vi</Property>
+				<Property Name="Source[37].itemID" Type="Ref">/My Computer/#include/resistanceCalculator.vi</Property>
 				<Property Name="Source[37].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[37].type" Type="Str">VI</Property>
 				<Property Name="Source[38].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[38].itemID" Type="Ref">/My Computer/#include/pwm_rpmPIP.vi</Property>
+				<Property Name="Source[38].itemID" Type="Ref">/My Computer/#include/resistancePIP.vi</Property>
 				<Property Name="Source[38].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[38].type" Type="Str">VI</Property>
 				<Property Name="Source[39].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[39].itemID" Type="Ref">/My Computer/#include/resistanceCalculator.vi</Property>
+				<Property Name="Source[39].itemID" Type="Ref">/My Computer/#include/resistanceQuiry_RS458.vi</Property>
 				<Property Name="Source[39].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[39].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
@@ -724,33 +712,21 @@
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[40].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[40].itemID" Type="Ref">/My Computer/#include/resistancePIP.vi</Property>
+				<Property Name="Source[40].itemID" Type="Ref">/My Computer/#include/User data_Cnsl.vi</Property>
 				<Property Name="Source[40].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[40].type" Type="Str">VI</Property>
 				<Property Name="Source[41].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[41].itemID" Type="Ref">/My Computer/#include/resistanceQuiry_RS458.vi</Property>
+				<Property Name="Source[41].itemID" Type="Ref">/My Computer/#include/wahooPIP.vi</Property>
 				<Property Name="Source[41].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[41].type" Type="Str">VI</Property>
 				<Property Name="Source[42].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[42].itemID" Type="Ref"></Property>
+				<Property Name="Source[42].itemID" Type="Ref">/My Computer/#include/usbPIP.vi</Property>
 				<Property Name="Source[42].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[42].type" Type="Str">VI</Property>
 				<Property Name="Source[43].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[43].itemID" Type="Ref">/My Computer/#include/User data_Cnsl.vi</Property>
+				<Property Name="Source[43].itemID" Type="Ref">/My Computer/#include/Header data_Cnsl.vi</Property>
 				<Property Name="Source[43].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[43].type" Type="Str">VI</Property>
-				<Property Name="Source[44].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[44].itemID" Type="Ref">/My Computer/#include/wahooPIP.vi</Property>
-				<Property Name="Source[44].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[44].type" Type="Str">VI</Property>
-				<Property Name="Source[45].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[45].itemID" Type="Ref">/My Computer/#include/usbPIP.vi</Property>
-				<Property Name="Source[45].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[45].type" Type="Str">VI</Property>
-				<Property Name="Source[46].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[46].itemID" Type="Ref">/My Computer/#include/Header data_Cnsl.vi</Property>
-				<Property Name="Source[46].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[46].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/#include/parseExcel.vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
@@ -771,7 +747,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/#include/currentMax.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">47</Property>
+				<Property Name="SourceCount" Type="Int">44</Property>
 				<Property Name="TgtF_companyName" Type="Str">ICON Health &amp; Fitness</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Release...</Property>
 				<Property Name="TgtF_internalName" Type="Str">LabVIEW_ConsoleTest</Property>
@@ -846,7 +822,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{8013B786-8C60-4329-8437-696EA6B398CD}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">LabVIEW_ConsoleTest</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.47</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.50</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18018011</Property>
 				<Property Name="MSI_arpCompany" Type="Str">ICON Health &amp; Fitness</Property>
