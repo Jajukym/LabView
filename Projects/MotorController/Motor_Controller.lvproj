@@ -140,7 +140,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E7BC9DAC-7FC3-4737-99B8-BB2A6C01AF0D}</Property>
-				<Property Name="Bld_version.build" Type="Int">46</Property>
+				<Property Name="Bld_version.build" Type="Int">47</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LabVIEW_ControllerTest0.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LabVIEW_ControllerTest/LabVIEW_ControllerTest/LabVIEW_ControllerTest0.exe</Property>
@@ -149,7 +149,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/LabVIEW_ControllerTest/LabVIEW_ControllerTest/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B86A4A61-E699-4CA6-81BF-F2C2C0F85E39}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9DB71186-0515-4BAD-9D5E-B00DA295C381}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/#include/Close Data File and open.vi</Property>
@@ -256,7 +256,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FAB50A65-F407-43BC-B949-76583287FB76}</Property>
-				<Property Name="Bld_version.build" Type="Int">47</Property>
+				<Property Name="Bld_version.build" Type="Int">48</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LabVIEW_ControllerTest1.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LabVIEW_ControllerTest/LabVIEW_ControllerTest/LabVIEW_ControllerTest1.exe</Property>
@@ -265,7 +265,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/LabVIEW_ControllerTest/LabVIEW_ControllerTest/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B86A4A61-E699-4CA6-81BF-F2C2C0F85E39}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9DB71186-0515-4BAD-9D5E-B00DA295C381}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/#include/Close Data File and open.vi</Property>
@@ -422,7 +422,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{5DA5B3EE-84DB-4CF8-B520-955AA622830C}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">LabVIEW_ControllerTest</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.42</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.43</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18018011</Property>
 				<Property Name="MSI_arpCompany" Type="Str">ICON Health &amp; Fitness</Property>
@@ -451,19 +451,10 @@
 				<Property Name="Source[0].name" Type="Str">LabVIEW_ControllerTest0</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/LabVIEW_ControllerTest0</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="Source[1].dest" Type="Str">{5DA5B3EE-84DB-4CF8-B520-955AA622830C}</Property>
 				<Property Name="Source[1].File[0].dest" Type="Str">{5DA5B3EE-84DB-4CF8-B520-955AA622830C}</Property>
 				<Property Name="Source[1].File[0].name" Type="Str">LabVIEW_ControllerTest1.exe</Property>
-				<Property Name="Source[1].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[1].File[0].Shortcut[0].name" Type="Str">LabVIEW_ControllerTest1</Property>
-				<Property Name="Source[1].File[0].Shortcut[0].subDir" Type="Str">LabVIEW_ControllerTest</Property>
-				<Property Name="Source[1].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[1].File[0].tag" Type="Str">{E56CB6F4-AEEC-4C83-BF73-171BB89B3F7E}</Property>
-				<Property Name="Source[1].FileCount" Type="Int">1</Property>
-				<Property Name="Source[1].name" Type="Str">LabVIEW_ControllerTest1</Property>
-				<Property Name="Source[1].tag" Type="Ref">/My Computer/Build Specifications/LabVIEW_ControllerTest1</Property>
-				<Property Name="Source[1].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
 		</Item>
 	</Item>
