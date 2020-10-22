@@ -1,6 +1,6 @@
 Part Name	MC5100_EXT_48W
 Part Number	419469
-Firmware Ver	12	
+Firmware Ver	102	
 
 
 
@@ -46,3 +46,4 @@ DISTANCE	LoResTach
 GRADE	Manual
 			
 REV0	08/28/2020	created	id:0
+REV1	10/19/2020	added correct firmware version.	id:0
