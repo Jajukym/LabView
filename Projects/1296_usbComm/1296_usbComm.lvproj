@@ -13,6 +13,7 @@
 		<Item Name="#include" Type="Folder" URL="../#include">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="countCycle.vi" Type="VI" URL="../countCycle.vi"/>
 		<Item Name="mainAuto.vi" Type="VI" URL="../mainAuto.vi"/>
 		<Item Name="processFlow.vi" Type="VI" URL="../processFlow.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -87,7 +88,6 @@
 			<Item Name="dataSampled.vi" Type="VI" URL="../../1259_usbComm/#include/dataSampled.vi"/>
 			<Item Name="focusKey_input.vi" Type="VI" URL="../../MotorController/#include/focusKey_input.vi"/>
 			<Item Name="Format File Property.vi" Type="VI" URL="../../../learning/LVUexamples/SubVIs/UI data header/Support/Format File Property.vi"/>
-			<Item Name="GeneratorConfigure.vi" Type="VI" URL="../../MotorController/#include/GeneratorConfigure.vi"/>
 			<Item Name="Global textParse.vi" Type="VI" URL="../../MotorController/#include/Global textParse.vi"/>
 			<Item Name="Header data_MClr.vi" Type="VI" URL="../../MotorController/#include/Header data_MClr.vi"/>
 			<Item Name="Header Title.vi" Type="VI" URL="../../MotorController/#include/Header Title.vi"/>
