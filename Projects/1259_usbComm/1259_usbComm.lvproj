@@ -356,7 +356,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{968905BA-8DA4-4B29-A6A4-882BFF446C23}</Property>
-				<Property Name="Bld_version.build" Type="Int">86</Property>
+				<Property Name="Bld_version.build" Type="Int">87</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">LabVIEW_ConsoleTest0.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/LabVIEW_ConsoleTest/My_Application/LabVIEW_ConsoleTest0.exe</Property>
@@ -365,7 +365,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/LabVIEW_ConsoleTest/My_Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D7FEFC84-45F2-4582-A8A7-867D250AA966}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{425F1FA4-74AA-47FB-A088-5E3B6D9F92AF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/#include/currentScan.vi</Property>
@@ -568,8 +568,8 @@
 				<Property Name="DistPart[2].productName" Type="Str">NI-VISA Runtime 19.5</Property>
 				<Property Name="DistPart[2].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
 				<Property Name="DistPart[3].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[3].productID" Type="Str">{0461072B-16FD-48C5-BA33-118D418BABA9}</Property>
-				<Property Name="DistPart[3].productName" Type="Str">NI LabVIEW Runtime 2018 SP1 f4 (64-bit)</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{A50C0173-6BDC-4110-8FD1-FA68262E3BBD}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI LabVIEW Runtime 2018 SP1 f5 (64-bit)</Property>
 				<Property Name="DistPart[3].SoftDep[0].exclude" Type="Bool">false</Property>
 				<Property Name="DistPart[3].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
 				<Property Name="DistPart[3].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
@@ -614,7 +614,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{8013B786-8C60-4329-8437-696EA6B398CD}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">LabVIEW_ConsoleTest</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.55</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.56</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18018011</Property>
 				<Property Name="MSI_arpCompany" Type="Str">ICON Health &amp; Fitness</Property>
